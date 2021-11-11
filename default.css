@@ -1,10 +1,20 @@
+: :root {
+    --mainBlue: #1487fd;
+    --mainYellow: #ffbb00;
+    --mainDarkGray: #333333;
+    --mainLightGray: #6d6767;
+}
+
+@font-face { font-family: URWDINArabic-Bold; src: url('../font/URWDINArabic-Bold.TTF'); }
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+ }
 .container {
     width: 80%;
     margin: auto;
     border: 1px solid gray;
+    overflow: hidden;
 }
+

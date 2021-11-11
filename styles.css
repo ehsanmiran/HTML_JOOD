@@ -7,3 +7,22 @@
     border-radius: 50px;
     transform: rotateY(0deg) rotate(-25deg);
 }
+.container {
+    background-image: url(../img/top-header-img.png);
+    position: relative;
+    top: 0%;
+}
+
+.section {
+    margin-top: 6rem;
+}
+.font-test {
+    font-family: URWDINArabic-Bold;
+    font-size: 2.5rem;
+    color: rgb(247, 39, 84);
+}
+
+.medium {
+    font-size: large;
+    color: darkgreen;
+}
