@@ -1,9 +1,0 @@
-.test {
-    width: 700px;
-    height: 450px;
-    background-color: blue;
-    margin: auto;
-    border: 1px solid gray;
-    border-radius: 50px;
-    transform: rotateY(0deg) rotate(-25deg);
-}
