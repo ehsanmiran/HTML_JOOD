@@ -1,9 +1,4 @@
-: :root {
-    --mainBlue: #1487fd;
-    --mainYellow: #ffbb00;
-    --mainDarkGray: #333333;
-    --mainLightGray: #6d6767;
-}
+
 
 @font-face { font-family: URWDINArabic-Bold; src: url('../font/URWDINArabic-Bold.TTF'); }
 *{
