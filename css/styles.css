@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .test {
     width: 700px;
     height: 450px;
@@ -26,3 +27,15 @@
     font-size: large;
     color: darkgreen;
 }
+=======
+/* @font-face { font-family: URWDINArabic-Bold; src: url('../font/URWDINArabic-Bold.TTF'); } */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+.container {
+    width: 100%;
+    margin: auto;
+}
+>>>>>>> develop
