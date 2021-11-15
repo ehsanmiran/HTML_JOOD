@@ -1,41 +1,94 @@
-<<<<<<< HEAD
-.test {
-    width: 700px;
-    height: 450px;
-    background-color: blue;
-    margin: auto;
-    border: 1px solid gray;
-    border-radius: 50px;
-    transform: rotateY(0deg) rotate(-25deg);
-}
-.container {
-    background-image: url(../img/top-header-img.png);
-    position: relative;
-    top: 0%;
-}
-
-.section {
-    margin-top: 6rem;
-}
-.font-test {
-    font-family: URWDINArabic-Bold;
-    font-size: 2.5rem;
-    color: rgb(247, 39, 84);
-}
-
-.medium {
-    font-size: large;
-    color: darkgreen;
-}
-=======
 /* @font-face { font-family: URWDINArabic-Bold; src: url('../font/URWDINArabic-Bold.TTF'); } */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
  }
+
+ html, body {
+     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap');
+ }
+
 .container {
-    width: 100%;
+    width: 60%;
     margin: auto;
 }
->>>>>>> develop
+
+.contact-box {
+    margin: 4rem 0;
+}
+
+.main-title {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #333333;
+}
+
+.Contact-Lorem {
+    max-width: 537px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #8a8a8a;
+}
+
+#conForm {
+    margin-top: 3rem;
+}
+
+.input-grp {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+.input-grp #name {
+    height: 70px;
+    margin-right: 1rem;
+}
+.input-grp #email {
+    height: 70px;
+    margin-left: 1rem;
+}
+
+
+.form-control {
+    background-color: #fbfbfb;
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 10px;
+    border: none;
+    font-family: Roboto;
+    font-size: 1rem;
+    font-weight: 400; 
+}
+
+.w50 {
+    width: 50%;
+}
+
+::placeholder {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #cccccc;
+}
+.btn {
+    padding: .7rem 4rem;
+    border: transparent;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+.btn-primary {
+    background-color: #3096fe;
+    font-family: Roboto;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fff;
+}
+.Cent {
+    text-align: center;
+}
