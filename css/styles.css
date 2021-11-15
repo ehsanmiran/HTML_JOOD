@@ -4,7 +4,98 @@
     padding: 0;
     box-sizing: border-box;
  }
+<<<<<<< HEAD
 .container {
-    width: 100%;
+=======
+
+ html, body {
+     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap');
+ }
+
+.container {
+    width: 60%;
     margin: auto;
 }
+
+.contact-box {
+    margin: 4rem 0;
+}
+
+.main-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #333333;
+}
+
+.Contact-Lorem {
+    max-width: 537px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #8a8a8a;
+}
+
+#conForm {
+    margin-top: 3rem;
+}
+
+.input-grp {
+>>>>>>> fcef0153c7f4dd7416774acf595b85d81d9f4bfc
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+.input-grp #name {
+    height: 70px;
+    margin-right: 1rem;
+}
+.input-grp #email {
+    height: 70px;
+    margin-left: 1rem;
+}
+
+
+.form-control {
+    background-color: #fbfbfb;
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 400; 
+}
+
+.w50 {
+    width: 50%;
+}
+
+::placeholder {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #cccccc;
+}
+.btn {
+    padding: .7rem 4rem;
+    border: transparent;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+.btn-primary {
+    background-color: #3096fe;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fff;
+}
+<<<<<<< HEAD
+=======
+.Cent {
+    text-align: center;
+}
+>>>>>>> fcef0153c7f4dd7416774acf595b85d81d9f4bfc
