@@ -101,3 +101,14 @@
     background-image: linear-gradient(#1487fd, #42a0ff);
     background-image: url("../img/shadaws.png");
 }
+
+.Logo-pt {
+    display: flex;
+}
+
+#yellow-point {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ffbb00;
+}
