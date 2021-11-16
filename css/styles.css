@@ -4,7 +4,88 @@
     padding: 0;
     box-sizing: border-box;
  }
-.container {
-    width: 100%;
+
+.download-section {
+    padding: 3em;
+    height:350px;
+    text-align: center;
     margin: auto;
+    width: 100%;
+    background: url(../Bilder/Bg.png);
+    color: white;
+    position: absolute;
 }
+
+.download-section h1 {
+    justify-content: left;
+    align-items: left;
+    display: flex;
+    margin-right:auto ;
+    max-width: 350px;
+}
+.download-section p {
+    justify-content: left;
+    align-items: left;
+    display: flex;
+    margin-right:auto ;
+    max-width: 350px;
+}
+
+.download-section #bild {
+   display: flex;
+  position: relative;
+  bottom: 10em;
+   width: 300px;
+    height: 300px;
+    justify-content: right;
+    align-items: right;
+    margin-left: auto;
+}
+.btn-download {
+    display: flex;
+    position: relative;
+    bottom: 15em;
+}
+#apple-btn  {
+    background: white;
+    margin-left: 2em;
+    display: flex;
+    width: 12em;
+    height: 4em;
+    border-color: transparent;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+}
+#apple-btn span {
+    
+   margin-top: .5em;
+   margin-bottom: auto;
+}
+#apple-btn i {
+    align-self: center;
+   font-size: 2rem;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+#google-play-btn {
+    background: white;
+    margin-left: 2em;
+    display: flex;
+    width: 12em;
+    height: 4em;
+    border-color: transparent;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+#google-play-btn img {
+    margin-bottom: auto;
+    margin-top: auto;
+    justify-content: center;
+  font-size: 2em;
+  
+}
+
+
+
