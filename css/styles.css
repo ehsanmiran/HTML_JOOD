@@ -13,6 +13,8 @@
     margin: auto;
 }
 
+
+/* ---------------- Contact Us Section starts here -------------------- */
 .contact-box {
     margin: 4rem 0;
 }
@@ -87,4 +89,13 @@
 }
 .Cent {
     text-align: center;
+}
+
+
+
+/* ---------------- Footer Section starts here -------------------- */
+#ehsan-footer {
+    height: 200px;
+    background-color: #1487fd;
+    background-image: linear-gradient(#1487fd, #42a0ff);
 }
