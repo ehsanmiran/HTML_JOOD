@@ -3,89 +3,124 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
  }
+
+    
 
 .download-section {
     padding: 3em;
     height:350px;
-    text-align: center;
-    margin: auto;
-    width: 100%;
+    align-items: center;
+     max-width: 100%;
     background: url(../Bilder/Bg.png);
     color: white;
-    position: absolute;
+  overflow: hidden;
+    
 }
 
 .download-section h1 {
-    justify-content: left;
-    align-items: left;
+    justify-content: center;
+    align-items: center;
     display: flex;
     margin-right:auto ;
+    margin-left: auto;
     max-width: 350px;
+    font-weight:800;
+    position: relative;
+    right: 5em;
+    
 }
 .download-section p {
-    justify-content: left;
-    align-items: left;
+    justify-content: center;
+    align-items: center;
     display: flex;
     margin-right:auto ;
-    max-width: 350px;
+    margin-left: auto;
+    max-width: 500px;
+    font-weight: lighter;
+    position: relative;
+    right: 8em;
 }
 
 .download-section #bild {
    display: flex;
-  position: relative;
-  bottom: 10em;
-   width: 300px;
+   position: relative;
+    justify-content: center;
+    width: 300px;
     height: 300px;
-    justify-content: right;
-    align-items: right;
     margin-left: auto;
+    margin-right: auto;
+    bottom:14em;
+    left: 18em;
+   
+   
+    
 }
 .btn-download {
     display: flex;
-    position: relative;
-    bottom: 15em;
+    justify-content:center;
+    margin:2em 18em 0 0;
 }
 #apple-btn  {
     background: white;
     margin-left: 2em;
     display: flex;
-    width: 12em;
+    width: 14em;
     height: 4em;
     border-color: transparent;
-    border-radius: 5px;
+    border-radius: 10px;
     align-items: center;
     justify-content: center;
-}
-#apple-btn span {
     
-   margin-top: .5em;
-   margin-bottom: auto;
+}
+#apple-btn:hover {
+    cursor: pointer;
 }
 #apple-btn i {
-    align-self: center;
+   margin-right: 1em;
    font-size: 2rem;
   margin-top: auto;
   margin-bottom: auto;
+  animation-name: apple-button;
+  animation-duration: 5s;
+    animation-iteration-count: infinite;
 }
 #google-play-btn {
+   
     background: white;
     margin-left: 2em;
     display: flex;
-    width: 12em;
+    width: 14em;
     height: 4em;
     border-color: transparent;
     border-radius: 10px;
     align-items: center;
     justify-content: center;
 }
-#google-play-btn img {
-    margin-bottom: auto;
-    margin-top: auto;
-    justify-content: center;
-  font-size: 2em;
-  
+#google-play-btn:hover {
+    cursor: pointer;
+}
+#google-play-btn i {
+    margin-right: 1em;
+  font-size: 2rem;
+  margin-top: auto;
+  margin-bottom: auto;
+  animation-name: play-button;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
 }
 
-
+@keyframes play-button {
+    0% {color: black;}
+    25%{color: yellow;}
+    50%{color: darkgreen;}
+    75%{color: darkred;}
+}
+@keyframes apple-button {
+    0% {color: black;}
+    25%{color: yellow;}
+    50%{color: darkgreen;}
+    75%{color: darkred;}
+}
 
