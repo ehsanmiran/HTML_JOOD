@@ -6,7 +6,7 @@
  }
 
  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap');
-
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
 .container {
     width: 60%;
@@ -104,6 +104,10 @@
 
 .Logo-pt {
     display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #fff;
 }
 
 #yellow-point {
