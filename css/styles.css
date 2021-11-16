@@ -94,3 +94,8 @@
 
 
 /* ---------------- Footer Section starts here -------------------- */
+#ehsan-footer {
+    height: 200px;
+    background-color: #1487fd;
+    background-image: linear-gradient(#1487fd, #42a0ff);
+}
