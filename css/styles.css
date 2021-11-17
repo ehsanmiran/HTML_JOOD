@@ -6,13 +6,15 @@
  }
 
  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap');
-
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
 .container {
     width: 60%;
     margin: auto;
 }
 
+
+/* ---------------- Contact Us Section starts here -------------------- */
 .contact-box {
     margin: 4rem 0;
 }
@@ -27,7 +29,8 @@
 }
 
 .Contact-Lorem {
-    margin: 0 auto;
+    text-align: center;
+    margin: 0 auto 3rem auto;
     max-width: 537px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -87,4 +90,29 @@
 }
 .Cent {
     text-align: center;
+}
+
+
+
+/* ---------------- Footer Section starts here -------------------- */
+#ehsan-footer {
+    height: 200px;
+    background-color: #1487fd;
+    background-image: linear-gradient(#1487fd, #42a0ff);
+    background-image: url("../img/shadaws.png");
+}
+
+.Logo-pt {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #fff;
+}
+
+#yellow-point {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ffbb00;
 }
