@@ -11,7 +11,8 @@
 }
 .bg-image img {
     width: 180%;
-    top: -190px;
+    height: 100vh;
+    top: -150px;
     right: 40px;
     position: relative;
 }
@@ -39,8 +40,8 @@
 .btn-header {
     border: none;
     border-radius: 2px;
-    font-weight: 500;
-    font-size: .7rem;
+    font-weight: 600;
+    font-size: .8rem;
     padding: .55rem 1.5rem;
     margin-top: 1rem;
     background-color: #FFBB00;
