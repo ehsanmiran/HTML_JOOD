@@ -71,6 +71,7 @@
     border-color: transparent;
     border-radius: 10px;
     align-items: center;
+    
     justify-content: center;
     
 }
@@ -103,7 +104,7 @@
 }
 #google-play-btn i {
     margin-right: 1em;
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-top: auto;
   margin-bottom: auto;
   animation-name: play-button;
@@ -113,14 +114,14 @@
 
 @keyframes play-button {
     0% {color: black;}
-    25%{color: yellow;}
     50%{color: darkgreen;}
     75%{color: darkred;}
+   
 }
 @keyframes apple-button {
     0% {color: black;}
-    25%{color: yellow;}
     50%{color: darkgreen;}
     75%{color: darkred;}
+  
 }
 

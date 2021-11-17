@@ -9,27 +9,30 @@
     <title>JOOD</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 </head>
 <body>
-<section class="download-section">
+<section class="download-section ">
     <div class="container">
-    <h1>Download the application now !
-        to enjoy its features</h1>
+    <h1 class="wow animate__animated animate__fadeInDown">Download the application now !
+        To enjoy its features</h1>
         <br>
         
-        
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        <p class="wow animate__animated animate__fadeInUp">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-   <div class="btn-download">
+        
+   <div class="btn-download wow animate__animated animate__fadeInLeft">
 
     <button id="google-play-btn"><i class="fab fa-google-play"></i> Get it from <br> Google Play </button>
-    <button id="apple-btn"><i class="fab fa-apple"></i>Download on the<br> App store</i>
+    <button id="apple-btn"><i class="fab fa-apple"></i>Download on the<br> Appstore</i>
     </div>
-            
-        <img id="bild"src="./Bilder/iphone.group.png" alt="">
+            <div class="wow animate__animated animate__fadeInRight">
+            <img id="bild"src="./Bilder/iphone.group.png" alt="">
         
- 
+            </div>
     
 
 
@@ -37,6 +40,11 @@
         
 </section>
 
-    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+    new WOW().init();
+    </script>
+
+
 </body>
 </html>
