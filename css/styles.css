@@ -58,11 +58,13 @@
     
 }
 .btn-download {
+   
     display: flex;
     justify-content:center;
     margin:2em 18em 0 0;
 }
 #apple-btn  {
+    margin-left: auto;
     background: white;
     margin-left: 2em;
     display: flex;
@@ -71,7 +73,6 @@
     border-color: transparent;
     border-radius: 10px;
     align-items: center;
-    
     justify-content: center;
     
 }
@@ -85,10 +86,10 @@
   margin-bottom: auto;
   animation-name: apple-button;
   animation-duration: 5s;
-    animation-iteration-count: infinite;
+animation-iteration-count: infinite;
 }
 #google-play-btn {
-   
+   margin-left: auto;
     background: white;
     margin-left: 2em;
     display: flex;
@@ -104,12 +105,13 @@
 }
 #google-play-btn i {
     margin-right: 1em;
-  font-size: 1.5rem;
-  margin-top: auto;
-  margin-bottom: auto;
-  animation-name: play-button;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
+    font-size: 2rem;
+   margin-top: auto;
+   margin-bottom: auto;
+   animation-name: play-button;
+   animation-duration: 5s;
+ animation-iteration-count: infinite;
+
 }
 
 @keyframes play-button {
@@ -125,3 +127,9 @@
   
 }
 
+@media screen and(max-width: 768px) {
+     
+    #bild {
+      dis
+    }
+}
