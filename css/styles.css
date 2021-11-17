@@ -72,7 +72,7 @@
   cursor: pointer;
 }
 #apple-btn i {
-  ;
+  
   font-size: 2rem;
   margin-top: auto;
   margin-bottom: auto;
@@ -120,6 +120,9 @@
   font-weight: 800;
 }
 
-
-@media screen and(max-width: 768px) {
+@media screen and (max-width:768px) {
+    .download-section #bild {
+    
 }
+}
+
