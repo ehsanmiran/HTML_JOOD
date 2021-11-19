@@ -8,15 +8,15 @@
  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
-.container {
-    width: 60%;
+.contain {
+    width: 100%;
     margin: auto;
 }
 
 
 /* ---------------- Contact Us Section starts here -------------------- */
 .contact-box {
-    margin: 4rem 0;
+    margin: 4rem 1rem;
 }
 
 .main-title {
@@ -92,6 +92,12 @@
     text-align: center;
 }
 
+.btn-primary:hover {
+    background-color: #0080ff;
+    box-shadow: 0px 3px 5px 6px rgb(233, 232, 232);
+    font-weight: 700;
+    color: #fff;
+}
 
 
 /* ---------------- Footer Section starts here -------------------- */
@@ -125,7 +131,7 @@
 
 /* ------ to be working with in @media quiry later -----*/
 #two-rows-lists {
-    display: flex;
+    /* display: flex; */
     justify-content: center;
 }
 .fnt {
@@ -133,12 +139,13 @@
     font-size: 1.2rem;
     font-weight: 500;
     color: #fff;
-    padding: 2rem;
+    padding: 1.5rem;
 }
 
 .flx {
     display: flex;
     list-style: none;
+    justify-content: center;
 }
 
 .S-media {
@@ -155,14 +162,10 @@
 
 
 @media screen and (min-width: 768px){
-
-}
-
-@media screen and (min-width: 992px){
-
-}
-
-@media screen and (min-width: 1200px){
+    .contain {
+        width: 80%;
+        margin: auto;
+    }
 	.grd {
 		display: grid;
 	}
@@ -170,13 +173,59 @@
 		display: flex;
 		justify-content: center;
 	}
+    .fnt {
+        padding: 2rem;
+    }
 	.S-media img {
-		 height: 50px;
+		height: 50px;
+		padding: 8px;
+	}
+}
+
+@media screen and (min-width: 992px){
+    .contain {
+        width: 60%;
+        margin: auto;
+    }
+	.grd {
+		display: grid;
+	}
+	#two-rows-lists {
+   	display: flex;
+		justify-content: center;
+	}
+	.S-media img {
+		height: 50px;
+		padding: 8px;
+	}
+}
+
+@media screen and (min-width: 1200px){
+    .contain {
+        width: 60%;
+        margin: auto;
+    }
+	.grd {
+		display: grid;
+	}
+	#two-rows-lists {
+		display: flex;
+		justify-content: center;
+	}
+    .fnt {
+        padding: 2rem;
+    }
+	.S-media img {
+		height: 50px;
 		padding: 8px;
 	}
 }
 
 @media screen and (min-width: 1400px){
+    .contain {
+        width: 60%;
+        margin: auto;
+    }
 	.grd {
 		display: grid;
 	}
@@ -184,8 +233,11 @@
 		display: flex;
 		justify-content: center;
 	}
-	.S-media img {
-	height: 50px;
-	padding: 8px;
+    .fnt {
+        padding: 2rem;
+    }
+    	.S-media img {
+	    height: 50px;
+	    padding: 8px;
 	}
 }
