@@ -122,6 +122,7 @@
     top: 33px;
 }
 
+/* ------ to be working with in @media quiry later -----*/
 #two-rows-lists {
     display: flex;
     justify-content: center;
@@ -144,7 +145,7 @@
     display: flex;
     justify-content: center;
 }
-
+/* ------ to be working with in @media quiry later -----*/
 .S-media img {
     height: 50px;
     padding: 8px;
