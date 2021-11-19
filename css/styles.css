@@ -96,23 +96,27 @@
 
 /* ---------------- Footer Section starts here -------------------- */
 #ehsan-footer {
-    height: 200px;
+    height: 300px;
     background-color: #1487fd;
     background-image: linear-gradient(#1487fd, #42a0ff);
     background-image: url("../img/shadaws.png");
 }
 
 .Logo-pt {
+    padding-top: 3rem;
     display: flex;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 1.7rem;
     color: #fff;
 }
 
 #yellow-point {
+    margin-left: .4rem;
     width: 12px;
     height: 12px;
     border-radius: 50%;
     background-color: #ffbb00;
+    position: relative;
+    top: 33px;
 }
