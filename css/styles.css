@@ -122,3 +122,20 @@
     position: relative;
     top: 33px;
 }
+
+#two-rows-lists {
+    display: flex;
+    justify-content: center;
+}
+.fnt {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #fff;
+    padding: 2rem;
+}
+
+.flx {
+    display: flex;
+    list-style: none;
+}
