@@ -115,4 +115,6 @@
     height: 12px;
     border-radius: 50%;
     background-color: #ffbb00;
+    position: relative;
+    top: 40px;
 }
