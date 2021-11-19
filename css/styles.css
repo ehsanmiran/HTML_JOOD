@@ -43,7 +43,7 @@
 }
 
 .grd {
-    display: grid;
+    /* display: grid; */
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
 }
@@ -96,10 +96,11 @@
 
 /* ---------------- Footer Section starts here -------------------- */
 #ehsan-footer {
-    height: 300px;
+    /* height: 300px; */
     background-color: #1487fd;
     background-image: linear-gradient(#1487fd, #42a0ff);
     background-image: url("../img/shadaws.png");
+    padding-bottom: 1rem;
 }
 
 .Logo-pt {
@@ -147,6 +148,44 @@
 }
 /* ------ to be working with in @media quiry later -----*/
 .S-media img {
-    height: 50px;
+    /* height: 50px; */
     padding: 8px;
+}
+
+
+
+@media screen and (min-width: 768px){
+
+}
+
+@media screen and (min-width: 992px){
+
+}
+
+@media screen and (min-width: 1200px){
+	.grd {
+		display: grid;
+	}
+	#two-rows-lists {
+		display: flex;
+		justify-content: center;
+	}
+	.S-media img {
+		 height: 50px;
+		padding: 8px;
+	}
+}
+
+@media screen and (min-width: 1400px){
+	.grd {
+		display: grid;
+	}
+	#two-rows-lists {
+		display: flex;
+		justify-content: center;
+	}
+	.S-media img {
+	height: 50px;
+	padding: 8px;
+	}
 }
