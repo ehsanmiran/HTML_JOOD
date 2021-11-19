@@ -103,18 +103,20 @@
 }
 
 .Logo-pt {
+    padding-top: 3rem;
     display: flex;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    font-size: 1.2rem;
+    font-size: 1.7rem;
     color: #fff;
 }
 
 #yellow-point {
+    margin-left: .4rem;
     width: 12px;
     height: 12px;
     border-radius: 50%;
     background-color: #ffbb00;
     position: relative;
-    top: 25px;
+    top: 33px;
 }
