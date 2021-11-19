@@ -102,7 +102,6 @@
     background-image: url("../img/shadaws.png");
 }
 
-
 .Logo-pt {
     justify-content: center;
     padding-top: 3rem;
@@ -129,7 +128,7 @@
 }
 .fnt {
     font-family: 'Roboto', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 500;
     color: #fff;
     padding: 2rem;
@@ -138,4 +137,15 @@
 .flx {
     display: flex;
     list-style: none;
+}
+
+.S-media {
+    display: block;
+    display: flex;
+    justify-content: center;
+}
+
+.S-media img {
+    height: 50px;
+    padding: 8px;
 }
