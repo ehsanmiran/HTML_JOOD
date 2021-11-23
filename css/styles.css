@@ -81,6 +81,7 @@
 .apple-btn-text {
     margin-left: auto;
     margin-right: auto;
+    text-align: start;
 }
 #google-play-btn {
  
@@ -92,7 +93,7 @@
   border-color: transparent;
   border-radius: 10px;
   align-items: center;
-  justify-content: space-between;
+ 
   
 }
 #google-play-btn:hover {
@@ -115,57 +116,14 @@
 .play-btn-text {
     margin-left: auto;
     margin-right: auto;
-    
+    text-align: start;
 }
 .bold {
-    margin-top: 10px;
+    margin-top: 5px;
   font-weight: 800;
+  font-size: 14px;
 }
 
-@media screen and (max-width:768px) {
-    .download-section #bild {
-    display: none;
-
-}
-
-#apple-btn { 
-    display: block;
-    
-}
-.apple-btn-text { 
-    display: none;
-    
-}
-#google-play-btn {
-    display: block;
-}
-.play-btn-text {
-    display: none;
-
-}
-.btn-download {
-    margin-left: auto;
-    margin-right: auto;
-}
-.container {
-    display: block;
-}
-.headline {
-  /* position: relative;
-  align-content: center;
-  text-align: center;
-  max-width: 100%; */
- } 
-    
- .sub-headline  {
-   margin-left: auto;
-   margin-right: auto;
-    align-content: center;
-    text-align: center;
-   
-  }
-
-}
 @media screen and (max-width:768px) {
     .download-section #bild {
     display: none;
@@ -215,17 +173,16 @@
 
 @media screen and (max-width:425px) {
   .headline {
-    
-     
-     font-weight: 300;
+      margin-right: 10em;
     position: relative;
      font-size: 1rem;
+     
+   
     } 
     .sub-headline {
       font-size: 8px;
-      align-content: left;
-      margin-left: auto;
-      margin-right: auto;
+      
+      
       position: relative;
       
     }
