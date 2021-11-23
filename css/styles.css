@@ -63,13 +63,10 @@
   align-items: center;
   justify-content: center;
 }
-
-#apple-btn #appstore {
-  display: flex;
-}
-
 #apple-btn:hover {
   cursor: pointer;
+  background-color: royalblue;
+  color: white;
 }
 #apple-btn i {
   
@@ -100,7 +97,12 @@
 }
 #google-play-btn:hover {
   cursor: pointer;
-}
+  
+    cursor: pointer;
+    background-color: royalblue;
+    color: white;
+  }
+
 #google-play-btn i {
   
   font-size: 2rem;
