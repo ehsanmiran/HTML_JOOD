@@ -8,6 +8,13 @@
  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
+<<<<<<< HEAD
+=======
+.eh-contain {
+    width: 100%;
+    margin: auto;
+}
+>>>>>>> 855e5542abd22ff8f5cdcd5f9316b5d3f23f395a
 
 
 /* ---------------- Contact Us Section starts here -------------------- */
@@ -122,7 +129,11 @@
     border-radius: 50%;
     background-color: #ffbb00;
     position: relative;
+<<<<<<< HEAD
     top: 31px;
+=======
+    top: 25px;
+>>>>>>> 855e5542abd22ff8f5cdcd5f9316b5d3f23f395a
 }
 
 /* ------ to be working with in @media quiry later -----*/
@@ -158,7 +169,15 @@
 
 
 @media screen and (min-width: 768px){
+<<<<<<< HEAD
  	.grd {
+=======
+    .eh-contain {
+        width: 80%;
+        margin: auto;
+    }
+	.grd {
+>>>>>>> 855e5542abd22ff8f5cdcd5f9316b5d3f23f395a
 		display: grid;
 	}
 	#two-rows-lists {
@@ -175,6 +194,13 @@
 }
 
 @media screen and (min-width: 992px){
+<<<<<<< HEAD
+=======
+    .eh-contain {
+        width: 60%;
+        margin: auto;
+    }
+>>>>>>> 855e5542abd22ff8f5cdcd5f9316b5d3f23f395a
 	.grd {
 		display: grid;
 	}
@@ -189,7 +215,14 @@
 }
 
 @media screen and (min-width: 1200px){
+<<<<<<< HEAD
 
+=======
+    .eh-contain {
+        width: 60%;
+        margin: auto;
+    }
+>>>>>>> 855e5542abd22ff8f5cdcd5f9316b5d3f23f395a
 	.grd {
 		display: grid;
 	}
@@ -207,6 +240,13 @@
 }
 
 @media screen and (min-width: 1400px){
+<<<<<<< HEAD
+=======
+    .eh-contain {
+        width: 60%;
+        margin: auto;
+    }
+>>>>>>> 855e5542abd22ff8f5cdcd5f9316b5d3f23f395a
 	.grd {
 		display: grid;
 	}
