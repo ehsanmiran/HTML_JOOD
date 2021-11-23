@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="557" height="595.728" viewBox="0 0 557 595.728">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#f3f3f3"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f3f3f3"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_4511" data-name="Group 4511" transform="translate(-246 -1304.418)">
+    <g id="Group_4510" data-name="Group 4510">
+      <g id="Ellipse_57" data-name="Ellipse 57" transform="translate(246 1323)" fill="#fff" stroke="#ccc" stroke-width="1" opacity="0.3">
+        <circle cx="278.5" cy="278.5" r="278.5" stroke="none"/>
+        <circle cx="278.5" cy="278.5" r="278" fill="none"/>
+      </g>
+      <g id="Ellipse_58" data-name="Ellipse 58" transform="translate(334 1411)" fill="#fff" stroke="#ccc" stroke-width="1" opacity="0.3">
+        <circle cx="190.5" cy="190.5" r="190.5" stroke="none"/>
+        <circle cx="190.5" cy="190.5" r="190" fill="none"/>
+      </g>
+      <path id="Glass" d="M31.518,0H254.29a31.436,31.436,0,0,1,31.518,31.354v533.02a31.436,31.436,0,0,1-31.518,31.354H31.518A31.436,31.436,0,0,1,0,564.374V31.354A31.436,31.436,0,0,1,31.518,0Z" transform="translate(376.418 1304.418)" fill="url(#linear-gradient)"/>
+      <circle id="Ellipse_7" data-name="Ellipse 7" cx="5" cy="5" r="5" transform="translate(550.645 1315.281)" fill="url(#linear-gradient-2)"/>
+      <ellipse id="Ellipse_8" data-name="Ellipse 8" cx="4.5" cy="5" rx="4.5" ry="5" transform="translate(550.645 1315.281)" fill="url(#linear-gradient)"/>
+      <circle id="Ellipse_10" data-name="Ellipse 10" cx="3.5" cy="3.5" r="3.5" transform="translate(551.645 1316.281)" fill="#f3f3f3"/>
+      <circle id="Ellipse_9" data-name="Ellipse 9" cx="1" cy="1" r="1" transform="translate(554.645 1316.281)" fill="#fff"/>
+      <path id="Ear_Piece" data-name="Ear Piece" d="M2.982.5H41.988a2.482,2.482,0,0,1,0,4.964H2.982A2.482,2.482,0,0,1,2.982.5Z" transform="translate(496.837 1317.748)" fill="#f3f3f3" stroke="#f9f8f8" stroke-width="1"/>
+      <path id="Image_Place_here" data-name="Image Place here" d="M239,575.871H26.949A26.98,26.98,0,0,1,0,548.921V26.95A26.98,26.98,0,0,1,26.949,0H55.5a4.831,4.831,0,0,1,3.709,3.667c.117.513.239,1.185.38,1.962.272,1.5.609,3.351,1.111,5.225C61.352,13.279,64.218,21.2,73.845,21.3c3.631.037,26.271.045,44.625.045,33.762,0,72.5-.027,74.314-.045,9.627-.1,12.492-8.02,13.141-10.445.5-1.879.84-3.736,1.112-5.229.142-.781.263-1.448.379-1.958A4.675,4.675,0,0,1,211.091,0H239A26.98,26.98,0,0,1,265.95,26.95V548.921A26.98,26.98,0,0,1,239,575.871Z" transform="translate(386.347 1314.348)" fill="#e3e3e3"/>
+    </g>
+  </g>
+</svg>

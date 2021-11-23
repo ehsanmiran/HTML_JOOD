@@ -1,10 +1,318 @@
-/* @font-face { font-family: URWDINArabic-Bold; src: url('../font/URWDINArabic-Bold.TTF'); } */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@400;700&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
  }
+
+ body {
+     overflow-x: hidden;
+     font-family: 'Roboto', sans-serif;
+ }
 .container {
     width: 100%;
     margin: auto;
+}
+
+/* LOGO START */
+.karusell-ec {
+    position: relative;
+    height: 25px;
+    margin: 3rem 0;
+}
+
+.ec-logo {
+    position: absolute;
+    animation: slide 6s linear infinite both;
+    bottom: 0;
+}
+
+#ec2 {
+    animation-delay: 3s;
+}
+
+#ec3 {
+    animation-delay: 6s;
+}
+
+#ec4 {
+    display: none;
+}
+/* LOGO END */
+
+/* ABOUT US START */
+.m-phone {
+    position: relative;
+}
+
+.dot1 {   
+    display: none; 
+}
+
+.dot2 {   
+    display: none; 
+}
+
+#m-mobil {
+    display: none;
+}
+
+.about-us {
+    padding: 0.3rem 0.8rem;
+    display: inline-block;
+    color: #ffbb00;
+    background-color: #ffbb0031;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+}
+
+.about-us-text {
+    padding: 0 1rem;
+}
+
+.about-us-text h3 {
+    font-size: x-large;
+    line-height: 2.3rem;
+    margin-bottom: 1rem;
+    width: 80%;
+}
+
+.about-us-p {
+    font-size: 12px;
+    color: #8A8A8A;
+    line-height: 1.3rem;
+}
+
+.about-us-text .btn-download {
+    margin: 2em 0 0 0;
+}
+
+.about-us-text #apple-btn {
+    background: #F8F8F8;
+  }
+
+.about-us-text #google-play-btn {
+    background: #F8F8F8;
+  }
+
+
+
+
+
+/* KNAPPARNA */
+  .btn-download {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 2em 18em 0 0;
+  }
+  #apple-btn {
+    margin-left: auto;
+    background: white;
+    margin-left: 2em;
+    display: flex;
+    width: 14em;
+    height: 4em;
+    border-color: transparent;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #apple-btn #appstore {
+    display: flex;
+  }
+  
+  #apple-btn:hover {
+    cursor: pointer;
+  }
+  #apple-btn i {
+    
+    font-size: 2rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    animation-name: apple-button;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+  }
+  
+  .apple-btn-text {
+      margin-left: auto;
+      margin-right: auto;
+      text-align: start;
+      font-size: 10px;
+      color: #6B6B6B;
+  }
+  #google-play-btn {
+   
+    background: white;
+    
+    display: flex;
+    width: 14em;
+    height: 4em;
+    border-color: transparent;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  #google-play-btn:hover {
+    cursor: pointer;
+  }
+  #google-play-btn i {
+    
+    font-size: 2rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    animation-name: play-button;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+  }
+  .play-btn-text {
+      margin-left: auto;
+      margin-right: auto;
+      text-align: start;
+      font-size: 10px;
+      color: #6B6B6B;
+      
+  }
+  .bold {
+    margin-top: 5px;
+    font-weight: 800;
+    font-size: 14px;
+    color: black;
+  }
+
+
+
+  
+
+
+
+
+
+
+
+
+
+@keyframes slide {
+    from { right: -50%; }
+
+    to { right: 100%; }
+}
+
+@keyframes dots1 {
+    from { 
+        transform: scale(0);
+        opacity: 1;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 0;
+    }
+}
+
+
+
+@media (min-width: 425px) {
+    .ec-logo {
+        animation-duration: 9s;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 80%;
+    }
+
+    .karusell-ec {    
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .ec-logo {
+        /* animation: stop; */
+        position: static;
+    }
+
+    #m-mobil {
+        display: inline-block;
+        height: 300px;
+    }
+
+    .about-us-text {
+        padding: 0;
+        width: 50%;
+    }
+
+    #malin-about-us .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;        
+    }
+
+    .dot1 {   
+        display: inline-block; 
+        position: absolute;
+        left: 0.5rem;
+        bottom: 3.9rem;
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        background-color: white;
+        border: 2px solid #E8E8E8;
+    
+        animation: dots1 3s ease-out infinite both;
+    }
+    
+    #nr2 {
+        animation-delay: 1s;
+        border: none;
+        background-color: #ffbb00;
+    }
+    
+    #nr3 {
+        animation-delay: 2s;
+    }
+
+    .dot2 {   
+        display: inline-block; 
+        position: absolute;
+        left: 15.5rem;
+        bottom: 13rem;
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        background-color: white;
+        border: 2px solid #E8E8E8;
+    
+        animation: dots1 4s ease-out infinite both;
+    }
+
+    #nr4 {
+        animation-delay: 1s;
+    }
+    
+    #nr5 {
+        animation-delay: 2s;
+        border: none;
+        background-color: #1487FD;
+    }
+    
+    #nr6 {
+        animation-delay: 3s;
+    }
+
+    .about-us-text .btn-download {
+        justify-content: flex-start;
+    }
+}
+
+@media (min-width: 1024px) {
+    #ec4 {
+        display: inline-block;
+    }
 }
