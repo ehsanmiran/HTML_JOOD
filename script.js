@@ -1,4 +1,4 @@
-var swiper = new Swiper(".mySwiper", {
+var swiper = new Swiper(".swiper", {
   effect: "coverflow",
   grabCursor: true,
   centeredSlides: true,
@@ -16,20 +16,6 @@ var swiper = new Swiper(".mySwiper", {
   },
   
   breakpoints: {
-    // when window width is >= 320px
-    // 600: {
-    //   slidesPerView: 2,
-    //   spaceBetween: 10,
-    //   coverflowEffect: {
-    //     rotate: -40,
-    //     stretch: 15,
-    //     depth: 400,
-    //     modifier: 1,
-    //     slideShadows: false,
-    //   }
-      
-    // },
-    // when window width is >= 480px
     768: {
       slidesPerView: 3,
       spaceBetween: 100,
@@ -41,7 +27,6 @@ var swiper = new Swiper(".mySwiper", {
         slideShadows: false,
       }
     },
-    // when window width is >= 640px
     1024: {
       slidesPerView: 5,
       spaceBetween: 60,
@@ -52,8 +37,6 @@ var swiper = new Swiper(".mySwiper", {
         modifier: 1,
         slideShadows: false,
       }
-      
-
     }
   }
 });

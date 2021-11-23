@@ -11,146 +11,142 @@ body, html {
   margin: auto;
 }
 
-/* Jonas Engström */
+/* Jonas Engström */  
+  .text-align-center {
+    text-align: center;
+  }
 
-  
-  .color-blue {
-    color: #3096FE;
-  }
-  
-  
-  
-  .swiper {
-    width: 100%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-  .swiper-wrapper {
-    width: 200px;
-  }
+
+  /* START CAROUSEL */
   .swiper-button-next {
-    margin-right: 5rem;
+    padding-right: 3rem;
   }
   .swiper-button-prev {
-    margin-left: 5rem;
+    margin-left: 3rem;
   }
-  .swiper-slide {
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
+  .swiper {
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
-  
   .swiper-slide img {
-    display: block;
     height: 350px;
   }
-  .statistics {
-    text-align: center;
-    padding-bottom: 2rem;
+  /* CAROUSEL END */
+
+
+
+  /* START APPLICATION-SCREENS */
+  .app-screen {
+    margin: 4rem 0 3rem 0;
   }
   .app-h2 {
-    font-size: 1.4rem;
-    padding-top: 1rem;
+    font-size: 1.5rem;
+    color: #333;
   }
   .app-p {
     color: #8A8A8A;
     font-size: .8rem;
-    max-width: 60%;
+    text-align: center;
+    width: 70%;
     margin: auto;
-    padding: 1rem 0;
   }
-  .big-screen {
+  .p-bigger {
     display: none;
   }
-  
+  .p-smaller {
+    width: 450px;
+  }
+  /* APPLICATION-SCREENS END */
+
+
+  /* START APPLICATION-STATISTICS */
+  .statistics {
+    margin-bottom: 5rem;
+  }
   .bg-image {
-    /* background-color: rgb(226, 195, 255); */
     background-image: url('/img/map.1opacity.svg');
-    
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    text-align: center;
-    /* width: 90%; */
+    width: 100%;
   }
   .statistics-numbers {
     display: grid;
-    grid-template-columns: repeat(2, auto);
-    grid-template-rows: minmax(100px, 1fr);
-    padding-top: 2rem;
+    grid-template-columns: repeat(2, 150px);
+    justify-content: center;
+    padding-top: 1.5rem;
     padding-bottom: 2rem;
-    max-width: 300px;
-    margin: auto;
+    row-gap: 2rem;
+    column-gap: 1.5rem;
   }
   .statistics-numbers h3 {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
+    color: #3096FE;
   }
-  .screens .app-p {
-    display: none;
+  .statistics-numbers p {
+    font-size: 1rem;
+    letter-spacing: .5px;
+    font-weight: 500;
   }
+  /* APPLICATION-STATISTICS END */
   
+
   
-  /* .statistics-numbers h3:hover {
-    transform: scale(1.5);
-  } */
-  
-  
-  
-  
+
+
+  @media (max-width: 600px) {
+    .container {
+      max-width: 580px;
+    }
+  }
   
   @media (min-width: 768px) {
     .container {
       width: 80%;
     }
+    .p-bigger {
+      display: block;
+      margin-top: 1rem;
+      width: 450px;
+    }
+    .p-smaller {
+      display: none;
+    }
     .statistics-numbers {
       display: flex;
-      justify-content: space-around;
-      max-width: 700px;
-      margin: auto;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 2rem;    
     }
-    .screens .app-p {
+    .bg-image {
+      padding: 1.5rem;
+      background-size: contain;
+      padding-bottom: 2rem;
+      width: 100%;
+    }
+    .swiper-slide img {
+      height: 400px;
       display: block;
-      max-width: 500px;
-      color: #8A8A8A;
-  }
-  .mobile {
-    display: none;
-  }
-  .big-screen-p {
-    display: block;
-    width: 70%;
-  }
-  .bg-image {
-    background-size: contain;
-    
-    /* padding: 2rem; */
-  }
-  .app-h2 {
-    font-size: 1.8rem;
-  }
-  .app-p {
-    font-size: .9rem;
-  }
-  .swiper-button-next {
-    margin: auto;
-  }
-  .swiper-button-prev {
-    margin: auto;
-  }
-  
+    }
   }
   
   @media (min-width: 1024px) {
     .container {
       width: 80%;
-      max-width: 1000px;
+      max-width: 992px;
     }
-    .screens .app-p {
-      display: block;
-      max-width: 50%;
-  }
-   
-    
+    .statistics-numbers {
+      max-width: 800px;
+      margin: auto;
+    }
+    .statistics-numbers h3 {
+      font-size: 1.8rem;
+    }
+    .statistics-numbers p {
+      font-size: 1rem;
+    }
+    .app-h2 {
+      font-size: 1.8rem;
+    }
   }
   
