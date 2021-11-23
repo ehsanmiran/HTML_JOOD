@@ -8,3 +8,54 @@
     width: 100%;
     margin: auto;
 }
+.container-features {
+    margin-top: 3rem;
+    margin-left: 8rem;
+    margin-right: 2rem;
+    margin-bottom: 3rem;
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.container-text{
+    width: 50%;
+    height: 100%;
+   
+}
+.features-grid{
+    padding-top: 2rem;
+    display: grid;
+    grid-area: features-grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1.5rem;
+    /* position: absolute; */
+    
+}
+.features-card1{
+    display: flex;
+    justify-items: center;
+
+        
+}
+
+
+
+
+/* media Query */
+ 
+@media (max-width: 768px) {
+    .features-bild {
+        display: none;
+    }
+    .container-features{
+        /* position: absolute; */
+        
+    }
+    .card-body{
+        font-size: 1.2rem;
+    }
+}
+    
+
+
+
