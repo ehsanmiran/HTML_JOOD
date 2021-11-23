@@ -1,10 +1,156 @@
-/* @font-face { font-family: URWDINArabic-Bold; src: url('../font/URWDINArabic-Bold.TTF'); } */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
- }
-.container {
-    width: 100%;
-    margin: auto;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+body, html {
+  font-family: 'Roboto', arial;
+}
+.container {
+  width: 100%;
+  margin: auto;
+}
+
+/* Jonas Engström */
+
+  
+  .color-blue {
+    color: #3096FE;
+  }
+  
+  
+  
+  .swiper {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .swiper-wrapper {
+    width: 200px;
+  }
+  .swiper-button-next {
+    margin-right: 5rem;
+  }
+  .swiper-button-prev {
+    margin-left: 5rem;
+  }
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    height: 350px;
+  }
+  .statistics {
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+  .app-h2 {
+    font-size: 1.4rem;
+    padding-top: 1rem;
+  }
+  .app-p {
+    color: #8A8A8A;
+    font-size: .8rem;
+    max-width: 60%;
+    margin: auto;
+    padding: 1rem 0;
+  }
+  .big-screen {
+    display: none;
+  }
+  
+  .bg-image {
+    /* background-color: rgb(226, 195, 255); */
+    background-image: url('/img/map.1opacity.svg');
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    text-align: center;
+    /* width: 90%; */
+  }
+  .statistics-numbers {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: minmax(100px, 1fr);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    max-width: 300px;
+    margin: auto;
+  }
+  .statistics-numbers h3 {
+    font-size: 1.3rem;
+  }
+  .screens .app-p {
+    display: none;
+  }
+  
+  
+  /* .statistics-numbers h3:hover {
+    transform: scale(1.5);
+  } */
+  
+  
+  
+  
+  
+  @media (min-width: 768px) {
+    .container {
+      width: 80%;
+    }
+    .statistics-numbers {
+      display: flex;
+      justify-content: space-around;
+      max-width: 700px;
+      margin: auto;
+    }
+    .screens .app-p {
+      display: block;
+      max-width: 500px;
+      color: #8A8A8A;
+  }
+  .mobile {
+    display: none;
+  }
+  .big-screen-p {
+    display: block;
+    width: 70%;
+  }
+  .bg-image {
+    background-size: contain;
+    
+    /* padding: 2rem; */
+  }
+  .app-h2 {
+    font-size: 1.8rem;
+  }
+  .app-p {
+    font-size: .9rem;
+  }
+  .swiper-button-next {
+    margin: auto;
+  }
+  .swiper-button-prev {
+    margin: auto;
+  }
+  
+  }
+  
+  @media (min-width: 1024px) {
+    .container {
+      width: 80%;
+      max-width: 1000px;
+    }
+    .screens .app-p {
+      display: block;
+      max-width: 50%;
+  }
+   
+    
+  }
+  
