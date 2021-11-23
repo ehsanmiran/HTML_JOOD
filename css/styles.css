@@ -1,96 +1,304 @@
-/* @font-face { font-family: URWDINArabic-Bold; src: url('../font/URWDINArabic-Bold.TTF'); } */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@400;500;700&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
- }
+}
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
 .container {
     width: 100%;
     margin: 0 auto;
 }
-.bg-image img {
-    width: 180%;
-    height: 100vh;
-    top: -150px;
-    right: 40px;
-    position: relative;
-}
-.background {
-    overflow: hidden;  
-}
- 
-.top-nav .container {
-   position: absolute;
-   top: 0;
-   display: flex;
-   justify-content: space-evenly;
-}
-.container .logo {
-    width: 100px;
-    margin-top: .7rem;
-}
 
-.navbar-toggler {
-    color: #FFBB00;
-    font-size: 1.9rem;
-    margin-top: 1.05rem;
-    
+/* .bg-image{
+    width: 250%;
+    top: -265px;
+    right: 50px;
+    position: relative;
+    content: '';
+    display: none;
+} */
+/* .bg-image-mobile {
+    position: relative;
+    content: '';
+    right: 80px;
+    height: 600px;
+    top: -320px; 
+    display: flex;
+    width: 180%;
+} */
+.background {
+    /* overflow: hidden;  */
+    background-image: url("../img/Component\ 1\ –\ 1.svg");
+    background-repeat: no-repeat;
+    background-size: 40;
+    background-position: 30% 100%;
+    /* background-position-x: bottom;
+    background-position-y: center; */
+    background-attachment: sticky;
+    overflow: hidden;
 }
-.btn-header {
-    border: none;
-    border-radius: 2px;
+.btn-a {
+    border: transparent;
+    border-radius: 9px;
     font-weight: 600;
     font-size: .8rem;
-    padding: .55rem 1.5rem;
+    padding: .70rem 1.6rem;
+    margin-top: .9rem;
+    cursor: pointer;
+}
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand img{
+    width: 15vh;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+.navbar-nav {
+    display: flex;
     margin-top: 1rem;
+}
+.navbar-toggler {
+    color: #FFBB00;
+    font-size: 2.3rem;
+    margin-top: .7rem;
+    margin-right: 1rem;
+    margin-left: 2rem;
+}
+.navnar .container {
+    display: flex;
+    justify-content: space-between ;
+}
+.btn-navbar {
     background-color: #FFBB00;
+    color: #fff;    
+}
+.btn-navbar:hover {
+    background-color: #f0b106;
     color: #fff;
+    padding: .75rem 1.8rem;
+}
+
+li {
+    list-style: none;
+}
+.features {
+    display: none;
+    margin-top: 1.3rem;
+}
+.link {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 2rem;
+    position: relative;
+    font-weight: 500;
+}
+.active {
+    color: #FFBB00;
+}
+.link.active::before {
+    position: absolute;
+    height: 2px;
+    width: 70%;
+    left: .01rem;
+    right: 1.5rem;
+    bottom: .7rem;
+    top: 1.4rem;
+    content: '';
+    background: #FFBB00;
+}
+.link:hover::before{
+    position: absolute;
+    height: 2px;
+    width: 70%;
+    left: .01rem;
+    right: 1.5rem;
+    bottom: .7rem;
+    top: 1.4rem;
+    content: '';
+    background: #FFBB00;
+    color: #FFBB00;
+}
+.link:hover {
+    color: #FFBB00;
+}
+
+/*---HEADER START---*/
+
+.showcase {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
+
+.a-iphones {
+    margin-top: 2rem;
+    width: 400px;
+    display: none;
+}
+.content {
+    margin-top: 4rem;
+    margin-bottom: 10rem;
+    margin-left: 2rem;
+    padding-bottom: 4rem;
+
+}
+.content h1 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: start;
+}
+.content p {
+    color: #fff;
+    font-size: 15px;
+    text-align: start;
+}
+/* .buttons  {
+    margin: 1rem;
+} */
+
+.btn-download {
+    background: transparent;
+    color: #fff;
+    border:2px solid #fff;
+    margin-top: 2rem;
+}
+.btn-watch 
+{
+    background: transparent; 
+    color: #fff;
+    font-size: 14px;
+    margin-top: 2rem;
+}
+
+.play-btn {
+    border: transparent;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #FFBB00;
+    cursor: pointer;
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+    /* position: relative; */
+    /* content: '';
+    top: 15px; */
+}
+.play {
+    color: #fff;
+}
+.play-btn::before {
+   
+    
+}
+.play-btn::after {
+    background: #FFBB00;
+}    
 
 
 /* MEDIA QUERY */
-@media (min-width: 450px){
-    .bg-image img {
-        width: 150%;
-        top: -290px;
-        right: 40px;
-        
-    } 
-}
-@media (min-width:600px){
-    .bg-image img {
-        width: 130%;
-        top: -320px;
-        right: 45px;
-    }
-}
+
+
 @media (min-width: 768px) {
-   .bg-image img {
-       width: 110%;
-       top: -340px;
-       right: 25px;
-   }
-}
-@media (min-width: 1024px) {
     .container {
         width: 80%;
     }
-    .bg-image img {
+    .bg-image {
+        display: flex;
+    }
+    .bg-image-mobile {
+        display: none;
+    }
+    .bg-image {
+        width: 140%;
+        top: -390px;
+        right: 60px;
+     }
+    .content h1 {
+        font-size: 48px;
+        font-weight: 700;
+        margin-bottom: 1rem;
+    }
+    .content p {
+        margin-top: .5rem;
+        color: #fff;
+        font-size: 15px;
+    }
+    .buttons  {
+        position: absolute;
+        top: 12rem;
+    }   
+    .background {
+        background-size: 140%;
+        background-position: 40% 120%;
+    }
+    .content {
+        margin-top: 4rem;
+        padding-bottom: 5rem;
+        
+       
+    }
+    
+}
+
+@media (min-width: 992px) {
+    /* .bg-image {
+        width: 120%;
+        top: -380px;
+        right: 45px;
+    } */
+    .background {
+        background-size: 130%;
+        background-position: 50% 100%;
+    }
+}
+@media (min-width: 1024px) 
+{
+    .a-iphones {
+        display: flex;
+    }
+    /* .bg-image {
         width: 110%;
-        top: -420px;
+        top: -450px;
         right: 70px;
+    } */
+    .features {
+        display: flex;
+    
+    }
+    .navbar-toggler {
+        display: none;
+    }
+    .iphone1, .iphone2 {
+        display: flex;
+    }
+    .background {
+        background-size: 130%;
+        background-position: 40% 100%;
     }
 }
 @media (min-width: 1440px) {
     .container {
-        width: 80%;
+        max-width: 1140px;
+        
     }
-    .bg-image img {
+    .background {
+        background-position: 40% 100%;
+    }
+    /* .bg-image {
         width: 110%;
-        top: -640px;
+        top: -700px;
         right: 80px;
-    }
+    } */
 }
