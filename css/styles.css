@@ -8,7 +8,7 @@
  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
-.contain {
+.eh-contain {
     width: 100%;
     margin: auto;
 }
@@ -162,7 +162,7 @@
 
 
 @media screen and (min-width: 768px){
-    .contain {
+    .eh-contain {
         width: 80%;
         margin: auto;
     }
@@ -183,7 +183,7 @@
 }
 
 @media screen and (min-width: 992px){
-    .contain {
+    .eh-contain {
         width: 60%;
         margin: auto;
     }
@@ -201,7 +201,7 @@
 }
 
 @media screen and (min-width: 1200px){
-    .contain {
+    .eh-contain {
         width: 60%;
         margin: auto;
     }
@@ -222,7 +222,7 @@
 }
 
 @media screen and (min-width: 1400px){
-    .contain {
+    .eh-contain {
         width: 60%;
         margin: auto;
     }
