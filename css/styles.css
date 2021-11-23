@@ -17,13 +17,13 @@
 }
 
 .download-section .headline {
- 
+
   margin-right: auto;
   margin-left: 8.5em;
   max-width: 350px;
   font-weight: 800;
-  align-self:left ;
-  right: 5em;
+ 
+
 }
 .download-section .sub-headline {
  margin-left: 8.5em;
@@ -166,6 +166,70 @@
   }
 
 }
+@media screen and (max-width:768px) {
+    .download-section #bild {
+    display: none;
+
+}
+
+#apple-btn { 
+    display: block;
+    
+}
+.apple-btn-text { 
+    display: none;
+    
+}
+#google-play-btn {
+    display: block;
+}
+.play-btn-text {
+    display: none;
+
+}
+.btn-download {
+    margin-left: auto;
+    margin-right: auto;
+}
+.container {
+    display: block;
+}
+.headline {
+  /* position: relative;
+  align-content: center;
+  text-align: center;
+  max-width: 100%; */
+ } 
+    
+ .sub-headline  {
+   margin-left: auto;
+   margin-right: auto;
+    align-content: center;
+    text-align: center;
+   
+  }
+
+}
+
+
+
+@media screen and (max-width:425px) {
+  .headline {
+    
+     
+     font-weight: 300;
+    position: relative;
+     font-size: 1rem;
+    } 
+    .sub-headline {
+      font-size: 8px;
+      align-content: left;
+      margin-left: auto;
+      margin-right: auto;
+      position: relative;
+      
+    }
+}
 
 @media screen and (max-width:375px) {
   .headline {
@@ -173,10 +237,8 @@
     font-weight: 600;
     align-content: center;
     font-size: .5rem;
+   } 
    
-  
-    
-  }
 .sub-headline {
   font-size: 8px;
   align-content: left;
@@ -187,3 +249,9 @@
 }
     
   }
+    
+
+
+
+
+
