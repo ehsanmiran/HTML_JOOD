@@ -35,7 +35,6 @@ body {
     justify-content: space-between;
     align-items: center;
 }
-
 .navbar-brand img{
     width: 20vh;
     margin-top: 2rem;
@@ -62,11 +61,10 @@ body {
     display: none;
 }
 .btn-navbar:hover {
-    background-color: #f0b106;
+    background-color: #f1b91e;
     color: #fff;
-    padding: .75rem 1.8rem;
+    transform: scale(1.05);
 }
-
 li {
     list-style: none;
 }
@@ -119,27 +117,24 @@ li {
     justify-content: space-between;
     align-items: center;
 }
-
-
-
 .a-iphones {
     margin-top: 2rem;
     width: 400px;
     display: none;
+    filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.2));
+    padding-bottom: 1rem;
 }
 .content {
     margin-top: 4rem;
     margin-bottom: 10rem;
     margin-left: 2rem;
     padding-bottom: 4rem;
-
 }
 .content h1 {
     color: #fff;
     font-size: 35px;
     font-weight: 700;
     text-align: start;
-    
 }
 .content p {
     color: #fff;
@@ -152,11 +147,9 @@ li {
     background: transparent;
     color: #fff;
     border:2px solid #fff;
-    margin-top: 2rem;
 }
 .btn-download:hover {
-    border:2px solid #fff;
-    padding: .75rem 1.8rem;
+    border: 2px solid #FFBB00;
     background-color: #FFBB00;
 }
 .btn-watch 
@@ -164,25 +157,22 @@ li {
     background: transparent; 
     color: #fff;
     font-size: 14px;
-    margin-top: 2rem;
-    padding: .60rem 1rem;
-
+    margin-top: 2rem; 
+    animation: pulse 600ms infinite;
+    display: none;
 }
-
 .play-btn {
     border: transparent;
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: #FFBB00;
     cursor: pointer;
-    margin-left: 1.5rem;
+    margin-left: 1.3rem;
     margin-top: 2rem;
     color: #fff;
-    justify-content: center;
-    align-items: center;
-    display: inline-block;
+    background-color: #FFBB00;
     position: relative;
+    bottom: .2rem;
 }
 .play {
     content: '';
@@ -190,46 +180,54 @@ li {
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
-    z-index: 1;
+    z-index: 4;
     text-align: center;
     font-size: 1.2rem;
-
 }
-
-.play-btn::after,.play-btn::before{
-    content: '';
+.play-btn::before{
+    z-index: 3;
+    animation: pulse 600ms infinite;
+    background: #FFBB00;
     position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-    width: 40px;
-    height: 40px;
-    border: 1px solid #fff;
+    content: '';
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
     border-radius: 50%;
-    animation: animate 1s infinite;
+
 }
-@keyframes animate {
+
+.play-btn::after {
+    z-index: 1;
+    animation: pulse 600ms infinite;
+    position: absolute;
+    content: '';
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    border-radius: 50%;
+    outline-offset: 5px;
+    outline: 1px solid #FFBB00;
+}
+
+@keyframes pulse {
     0%{
-        width: 40px;
-        height: 40px;
+       transform: scale(1);
     }
     100%{
-        width: 45px;
-        height: 45px;
+        transform: scale(2);
     }
 }
-
-.play-btn::before {
-   
-    
-}
-.play-btn::after {
-    background: #FFBB00;
-}    
-
 
 /*---MEDIA QUERY---*/
 
+@media (min-width: 425px) {
+    .btn-watch {
+        display: inline-block;
+    }
+}
 
 @media (min-width: 768px) {
 .container {
@@ -257,16 +255,13 @@ li {
 }
 .btn-navbar {
     display: flex;
-}
-
-    
+} 
 }
 
 @media (min-width: 992px) {
 .background {
     background-size: 130%;
-    background-position: 50% 100%;
-}
+    background-position: 50% 100%;}
 }
 
 @media (min-width: 1024px) 
@@ -298,5 +293,4 @@ li {
     background-size: 130% ;
     background-position: 40% 95%;
 }
-
 }
