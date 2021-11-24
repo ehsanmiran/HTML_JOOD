@@ -13,6 +13,8 @@ body {
     margin: 0 auto;
 }
 
+
+
 .background {
     background-image: url("../img/Component\ 1\ –\ 1.svg");
     background-repeat: no-repeat;
@@ -30,6 +32,8 @@ body {
     margin-top: .9rem;
     cursor: pointer;
 }
+
+/* --TOPNAV START--- */
 .navbar .container {
     display: flex;
     justify-content: space-between;
