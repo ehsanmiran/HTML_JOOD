@@ -11,12 +11,10 @@ body, html {
   margin: auto;
 }
 
-/* Jonas Engström */  
+/* START Jonas Engström */  
   .text-align-center {
     text-align: center;
   } 
- 
- 
   /* START CAROUSEL */
    .iphone {
     width: 225px;
@@ -28,8 +26,6 @@ body, html {
     padding-bottom: 40px;
   }
   .swiper-slide {
-    background-position: center;
-    background-size: cover;
     display: flex;
     justify-content: center;
   }
@@ -39,8 +35,6 @@ body, html {
   .swiper-button-prev {
     left: 4rem;
   }
- 
-
   /* CAROUSEL END */
 
 
@@ -50,7 +44,7 @@ body, html {
     margin: 3rem 0;
   }
   .app-h2 {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     color: #333;
   }
   .app-p {
@@ -92,9 +86,10 @@ body, html {
   .statistics-numbers h3 {
     font-size: 1.4rem;
     color: #3096FE;
+    margin-bottom: .2rem;
   }
   .statistics-numbers p {
-    font-size: 1rem;
+    font-size: .9rem;
     letter-spacing: .5px;
     font-weight: 500;
   }
@@ -116,7 +111,7 @@ body, html {
     }
     .p-bigger {
       display: block;
-      margin-top: 1rem;
+      margin: 1rem auto;
       width: 450px;
     }
     .p-smaller {
@@ -133,37 +128,23 @@ body, html {
     }
     .bg-image {
       padding: 1.5rem;
-      background-size: contain;
-      padding-bottom: 2rem;
-      width: 100%;
-    }
-    .swiper-slide-active img {
-      transform: scale(1.1);
-      transition: .5s ease-out;
     }
     .swiper {
       max-width: 700px;
-      padding-top: 50px;
+      padding-top: 60px;
+      padding-bottom: 80px;
     }
-    
-    
-
+    .swiper-button-next {
+      right: 3rem;
+    }
+    .swiper-button-prev {
+      left: 3rem;
+    }
   }
   
   @media (min-width: 1024px) {
     .container {
-      width: 80%;
       max-width: 992px;
-    }
-    .statistics-numbers {
-      max-width: 800px;
-      margin: auto;
-    }
-    .statistics-numbers h3 {
-      font-size: 1.8rem;
-    }
-    .statistics-numbers p {
-      font-size: 1rem;
     }
     .app-h2 {
       font-size: 2rem;
@@ -176,7 +157,23 @@ body, html {
     .swiper {
       max-width: 992px;
     }
-
-
+    .swiper-button-next {
+      right: 2rem;
+    }
+    .swiper-button-prev {
+      left: 2rem;
+    }
+    .statistics-numbers {
+      max-width: 800px;
+      margin: auto;
+    }
+    .statistics-numbers h3 {
+      font-size: 1.8rem;
+      margin-bottom: .5rem;
+    }
+    .statistics-numbers p {
+      font-size: 1rem;
+    }
   }
+  /* Jonas Engström END */
   

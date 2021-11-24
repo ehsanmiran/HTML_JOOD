@@ -6,8 +6,9 @@ var swiper = new Swiper(".mySwiper", {
   grabCursor: true,
   centeredSlides: true,
   slidesPerView: 1,
-  spaceBetween: 30,
+  spaceBetween: 0,
   loop: true,
+  parallax: true,
   coverflowEffect: {
     rotate: -100,
     stretch: 0,
@@ -15,18 +16,10 @@ var swiper = new Swiper(".mySwiper", {
     modifier: 1,
     slideShadows: false,
   },
-  pagination: {
-    el: '.swiper-pagination',
-    type: 'bullets',
-  },
    navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
       },
-  
- 
-  
-  
   breakpoints: {
     768: {
       slidesPerView: 3,
@@ -34,7 +27,7 @@ var swiper = new Swiper(".mySwiper", {
       coverflowEffect: {
         rotate: -10,
         stretch: 0,
-        depth: 80,
+        depth: 110,
       },
     },
     1024: {
@@ -45,10 +38,8 @@ var swiper = new Swiper(".mySwiper", {
         stretch: -35,
         depth: 120,
       },
-      pagination: false,
     },
   }
-
 });
 
 wow = new WOW(
