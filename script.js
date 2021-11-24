@@ -15,6 +15,10 @@ var swiper = new Swiper(".mySwiper", {
     modifier: 1,
     slideShadows: false,
   },
+  pagination: {
+    el: '.swiper-pagination',
+    type: 'bullets',
+  },
    navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
@@ -41,6 +45,7 @@ var swiper = new Swiper(".mySwiper", {
         stretch: -35,
         depth: 120,
       },
+      pagination: false,
     },
   }
 
@@ -56,3 +61,9 @@ wow = new WOW(
 }
 )
 wow.init();
+
+
+
+
+
+

@@ -24,7 +24,7 @@ body, html {
   .swiper {
     width: 100%;
     max-width: 550px;
-    padding-top: 50px;
+    padding-top: 30px;
     padding-bottom: 40px;
   }
   .swiper-slide {
@@ -143,6 +143,7 @@ body, html {
     }
     .swiper {
       max-width: 700px;
+      padding-top: 50px;
     }
     
     
