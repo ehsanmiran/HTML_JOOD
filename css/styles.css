@@ -109,6 +109,11 @@ body, html {
     .container {
       width: 80%;
     }
+    .app-h2 {
+      font-size: 1.8rem;
+      font-weight: 800;
+      letter-spacing: .5px;
+    }
     .p-bigger {
       display: block;
       margin: 1rem auto;
