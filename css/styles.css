@@ -14,23 +14,38 @@ body, html {
 /* Jonas Engström */  
   .text-align-center {
     text-align: center;
-  }
-
-
+  } 
+ 
+ 
   /* START CAROUSEL */
-  .swiper-button-next {
-    padding-right: 3rem;
-  }
-  .swiper-button-prev {
-    margin-left: 3rem;
+   .iphone {
+    width: 225px;
   }
   .swiper {
+    width: 350px;
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
   }
-  .swiper-slide img {
-    height: 350px;
+
+ 
+  .swiper-buttons {
+    display: none;
   }
+  .swiper-pagination {
+    margin-bottom: 1rem;
+    transform: scale(1.1);
+  }
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    /* width: 400px; */
+  }
+  .swiper-pagination-bullet-active {
+    transform: scale(1.3);
+    transition-duration: .6s;
+    /* transition: ease-in; */
+  }
+ 
   /* CAROUSEL END */
 
 
@@ -124,10 +139,13 @@ body, html {
       padding-bottom: 2rem;
       width: 100%;
     }
-    .swiper-slide img {
-      height: 400px;
+    .swiper-pagination {
+      display: none;
+    }
+    .swiper-buttons {
       display: block;
     }
+
   }
   
   @media (min-width: 1024px) {
