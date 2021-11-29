@@ -123,7 +123,46 @@
   font-weight: 800;
   font-size: 14px;
 }
-
+@media screen and (max-width:375px) {
+  .download-section .headline {
+margin-right: 1.5em;
+    } 
+   
+.sub-headline {
+  font-size: 10px;
+  align-content: left;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  
+}
+    
+  }
+    
+  @media screen and (max-width:425px) {
+    .headline {
+     position: absolute;
+       font-size: 1rem;
+       left: -5em;
+      text-align: left; 
+     
+      } 
+      .sub-headline {
+        font-size: .5rem;
+      margin-left: 1em;
+        top: 4em;
+        position: relative;
+        left: -5em;
+      }
+      #google-play-btn {
+        margin-top: 2em;
+      }
+      #apple-btn {
+        margin-top: 2em;
+      }
+  }
+  
+ 
 @media screen and (max-width:768px) {
     .download-section #bild {
     display: none;
@@ -167,46 +206,16 @@
    
   }
 
-}
-
-
-
-@media screen and (max-width:425px) {
-  .headline {
-      margin-right: 10em;
-    position: relative;
-     font-size: 1rem;
-     
-   
-    } 
-    .sub-headline {
-      font-size: 8px;
-      
-      
-      position: relative;
-      
-    }
-}
-
-@media screen and (max-width:375px) {
-  .headline {
-   justify-self: center;
-    font-weight: 600;
-    align-content: center;
-    font-size: .5rem;
-   } 
-   
-.sub-headline {
-  font-size: 8px;
-  align-content: left;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
+} 
   
-}
-    
-  }
-    
+
+
+
+
+
+
+
+  
 
 
 
