@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@400;700&display=swap');
 
-
 *{
     margin: 0;
     padding: 0;
@@ -8,15 +7,16 @@
  }
 
  body {
-     overflow-x: hidden;
-     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
  }
+
 .container {
     width: 100%;
     margin: auto;
 }
 
-/* LOGO START */
+/*--- EC-LOGO START, av Malin ---*/
 .karusell-ec {
     position: relative;
     height: 25px;
@@ -40,23 +40,69 @@
 #ec4 {
     display: none;
 }
-/* LOGO END */
+/* EC-LOGO END */
 
-/* ABOUT US START */
+
+/*--- ABOUT US START, av Malin ---*/
 .m-phone {
     position: relative;
 }
 
+#m-mobil {   
+    display: none;
+    height: 300px;
+}
+
 .dot1 {   
-    display: none; 
+    display: none;
+    position: absolute;
+    left: 0.5rem;
+    bottom: 3.9rem;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid #E8E8E8;
+
+    animation: dots1 3s ease-out infinite both; 
+}
+
+#nr2 {
+    animation-delay: 1s;
+    border: none;
+    background-color: #ffbb00;
+}
+
+#nr3 {
+    animation-delay: 2s;
 }
 
 .dot2 {   
     display: none; 
+    position: absolute;
+    left: 15.5rem;
+    bottom: 13rem;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid #E8E8E8;
+
+    animation: dots1 4s ease-out infinite both;
 }
 
-#m-mobil {
-    display: none;
+#nr4 {
+    animation-delay: 1s;
+}
+
+#nr5 {
+    animation-delay: 2s;
+    border: none;
+    background-color: #1487FD;
+}
+
+#nr6 {
+    animation-delay: 3s;
 }
 
 .about-us {
@@ -96,13 +142,14 @@
 .about-us-text #google-play-btn {
     background: #F8F8F8;
   }
+/* --- ABOUT US END --- */
 
 
 
 
+/* -----TA BORT DENNA KOD, finns i DOWNLOAD----- */
 
-/* KNAPPARNA */
-  .btn-download {
+.btn-download {
     position: relative;
     display: flex;
     justify-content: center;
@@ -120,13 +167,10 @@
     align-items: center;
     justify-content: center;
   }
-  
-  #apple-btn #appstore {
-    display: flex;
-  }
-  
   #apple-btn:hover {
     cursor: pointer;
+    background-color: royalblue;
+    color: white;
   }
   #apple-btn i {
     
@@ -142,8 +186,6 @@
       margin-left: auto;
       margin-right: auto;
       text-align: start;
-      font-size: 10px;
-      color: #6B6B6B;
   }
   #google-play-btn {
    
@@ -155,12 +197,17 @@
     border-color: transparent;
     border-radius: 10px;
     align-items: center;
-    justify-content: space-between;
+   
     
   }
   #google-play-btn:hover {
     cursor: pointer;
-  }
+    
+      cursor: pointer;
+      background-color: royalblue;
+      color: white;
+    }
+  
   #google-play-btn i {
     
     font-size: 2rem;
@@ -174,29 +221,17 @@
       margin-left: auto;
       margin-right: auto;
       text-align: start;
-      font-size: 10px;
-      color: #6B6B6B;
-      
   }
   .bold {
-    margin-top: 5px;
+      margin-top: 5px;
     font-weight: 800;
     font-size: 14px;
-    color: black;
   }
 
+/* --------------------- */
 
 
-  
-
-
-
-
-
-
-
-
-
+/* --- ANIMATION ec+about us, av Malin ---   */
 @keyframes slide {
     from { right: -50%; }
 
@@ -214,7 +249,7 @@
         opacity: 0;
     }
 }
-
+/* ------------- */
 
 
 @media (min-width: 425px) {
@@ -240,7 +275,6 @@
 
     #m-mobil {
         display: inline-block;
-        height: 300px;
     }
 
     .about-us-text {
@@ -256,54 +290,10 @@
 
     .dot1 {   
         display: inline-block; 
-        position: absolute;
-        left: 0.5rem;
-        bottom: 3.9rem;
-        height: 30px;
-        width: 30px;
-        border-radius: 50%;
-        background-color: white;
-        border: 2px solid #E8E8E8;
-    
-        animation: dots1 3s ease-out infinite both;
-    }
-    
-    #nr2 {
-        animation-delay: 1s;
-        border: none;
-        background-color: #ffbb00;
-    }
-    
-    #nr3 {
-        animation-delay: 2s;
     }
 
     .dot2 {   
         display: inline-block; 
-        position: absolute;
-        left: 15.5rem;
-        bottom: 13rem;
-        height: 30px;
-        width: 30px;
-        border-radius: 50%;
-        background-color: white;
-        border: 2px solid #E8E8E8;
-    
-        animation: dots1 4s ease-out infinite both;
-    }
-
-    #nr4 {
-        animation-delay: 1s;
-    }
-    
-    #nr5 {
-        animation-delay: 2s;
-        border: none;
-        background-color: #1487FD;
-    }
-    
-    #nr6 {
-        animation-delay: 3s;
     }
 
     .about-us-text .btn-download {
