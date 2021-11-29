@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="137" height="57" viewBox="0 0 137 57">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        font-size: 41px;
+        font-family: Poppins-Bold, Poppins;
+        font-weight: 700;
+        letter-spacing: 0.02em;
+      }
+
+      .cls-2 {
+        fill: #fb0;
+      }
+    </style>
+  </defs>
+  <g id="logo" transform="translate(-375 -47)">
+    <text id="JOOD" class="cls-1" transform="translate(375 90)"><tspan x="0" y="0">JOOD</tspan></text>
+    <circle id="Ellipse_67" data-name="Ellipse 67" class="cls-2" cx="6" cy="6" r="6" transform="translate(500 79)"/>
+  </g>
+</svg>
