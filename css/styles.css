@@ -127,6 +127,9 @@
   .download-section .headline {
 margin-right: 1.5em;
     } 
+    .apple-btn-text {
+      font-size: .8rem;
+    }
    }
     
   @media screen and (max-width:425px) {
@@ -159,21 +162,8 @@ margin-right: 1.5em;
 
 }
 
-#apple-btn { 
-    display: block;
-    
-}
-.apple-btn-text { 
-    display: none;
-    
-}
-#google-play-btn {
-    display: block;
-}
-.play-btn-text {
-    display: none;
 
-}
+
 .btn-download {
     margin-left: auto;
     margin-right: auto;
@@ -181,12 +171,7 @@ margin-right: 1.5em;
 .container {
     display: block;
 }
-.headline {
-  /* position: relative;
-  align-content: center;
-  text-align: center;
-  max-width: 100%; */
- } 
+
     
  .sub-headline  {
    margin-left: auto;
