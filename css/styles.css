@@ -5,7 +5,7 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
-
+/* Jonas S */
 .download-section {
   padding: 3em;
   height: 350px;
@@ -37,13 +37,13 @@
 .download-section #bild {
   display: flex;
   position: relative;
-  justify-content: center;
-  width: 300px;
-  height: 300px;
+  
+  width: 280px;
+  height: 280px;
   margin-left: auto;
-  margin-right: auto;
+  right: 15em;
   bottom: 14em;
-  left: 18em;
+  
 }
 .btn-download {
   position: relative;
@@ -123,6 +123,8 @@
   font-weight: 800;
   font-size: 14px;
 }
+
+
 @media screen and (max-width:375px) {
   .download-section .headline {
 margin-right: 1.5em;
@@ -186,10 +188,13 @@ margin-right: 1.5em;
 @media screen and (max-width:1024px) {
 
 .sub-headline  {
+
   font-size: .8rem;
 }
     
-  
+  .download-section #bild {
+    left: 1em;
+  }
 }
 
 
