@@ -114,8 +114,13 @@
     display: flex;
 }
 
+#two-rows-lists a {
+    text-decoration: none;
+}
+#two-rows-lists a:hover{
+    color: #ffbb00;
+}
 
-/* ------ to be working with in @media quiry later -----*/
 #two-rows-lists {
     justify-content: center;
 }
