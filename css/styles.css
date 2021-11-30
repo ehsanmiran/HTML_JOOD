@@ -256,6 +256,9 @@ li {
 
 
 /*--- ABOUT US START, av Malin ---*/
+#malin-about-us {
+    margin-bottom: 2rem;
+}
 .m-phone {
     position: relative;
 }
@@ -317,27 +320,28 @@ li {
     animation-delay: 3s;
 }
 
-.about-us {
+.feature-headline {
     padding: 0.3rem 0.8rem;
     display: inline-block;
     color: #ffbb00;
     background-color: #ffbb0031;
     border-radius: 6px;
     margin-bottom: 1rem;
+    font-size: 14px;
 }
 
 .about-us-text {
     padding: 0 1rem;
 }
 
-.about-us-text h3 {
+.about-us-text h2 {
     font-size: x-large;
     line-height: 2.3rem;
     margin-bottom: 1rem;
     width: 80%;
 }
 
-.about-us-p {
+.text-p {
     font-size: 12px;
     color: #8A8A8A;
     line-height: 1.3rem;
@@ -462,6 +466,104 @@ li {
     }
  
 
+    
+    /* --FEATURES-- */
+
+
+    
+#features {
+    background-color: #F5F5F5;
+    background-image: url('../img/Repeat\ Grid\ 1.svg');
+    background-repeat: no-repeat;
+    padding-block: 3rem;
+    background-position: left;
+    background: 10;
+}    
+#features .container {
+    display: flex;
+    justify-items: center;
+    margin-bottom: 4rem;
+}
+
+.features-title {
+    font-size: x-large;
+    line-height: 2.3rem;
+}
+
+.features-grid{
+    padding-top: 2rem;
+    display: grid;
+    grid-area: features-grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1.5rem;
+    /* position: absolute; */
+}
+
+.features-card1{
+    display: flex;
+    justify-items: center;
+}
+.text-card {
+    font-size: 12px;
+    color: #8A8A8A;
+}
+.card-body h4 {
+    font-size: 15px;
+    margin-bottom: .3rem;
+}
+.card-body {
+    margin-left: 1rem;
+}
+
+.features-background {
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    right: 220px;
+    transform: rotate(-35deg);
+    top: 90px;
+    
+    /* bottom: 6px; */
+}
+.features-background img{
+    height: 250px;
+
+}
+
+.features-bild{
+    /* transform: rotate(-30deg); */
+    position: relative;
+     z-index: 1;
+     /* display: none; */
+    }
+.features-circle1{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-color: transparent;
+    border: 20px solid #ffbb00;
+    position: absolute;
+    right: 190px;
+    top: 120px;
+    
+}
+.features-circle2{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: #1487fd;
+    position: absolute;
+    right: 350px;
+    top: 250px;
+
+    
+}
+.container-text {
+    font-size: 12px;
+}
+
+
 /*---MEDIA QUERY---*/
 
 @media (min-width: 425px) {
@@ -471,11 +573,19 @@ li {
     .ec-logo {
         animation-duration: 9s;
     }
+
+   
 }
 
 @media (min-width: 768px) {
 .container {
     width: 80%;
+}
+.container-text {
+    width: 75%;
+}
+#features .container {
+    font-size: 14px;
 }
     
 .content h1 {
@@ -500,6 +610,7 @@ li {
 .btn-navbar {
     display: flex;
 } 
+/* About-us */
 .karusell-ec {    
     display: flex;
     justify-content: space-between;
@@ -536,6 +647,11 @@ li {
 .about-us-text .btn-download {
     justify-content: flex-start;
 }
+/* Features */
+.features-bild {
+    display: inline-block;
+}
+
 }
 
 @media (min-width: 992px) {
@@ -543,6 +659,7 @@ li {
     background-size: 130%;
     background-position: 50% 100%;}
 }
+
 
 @media (min-width: 1024px) 
 {
@@ -566,7 +683,15 @@ li {
 #ec4 {
     display: inline-block;
 }
+.container-text {
+    width: 60%;
 }
+#features .container {
+    font-size: 18px;
+}
+
+}
+
 
 @media (min-width: 1440px) {
 .container {
