@@ -265,7 +265,7 @@ li {
 
 #m-mobil {   
     display: none;
-    height: 300px;
+    height: 500px;
 }
 
 .dot1 {   
@@ -477,7 +477,7 @@ li {
     background-repeat: no-repeat;
     padding-block: 3rem;
     background-position: left;
-    background: 10;
+    background-size: 20vh;
 }    
 #features .container {
     display: flex;
@@ -535,7 +535,7 @@ li {
     /* transform: rotate(-30deg); */
     position: relative;
      z-index: 1;
-     /* display: none; */
+     display: none;
     }
 .features-circle1{
     border-radius: 50%;
