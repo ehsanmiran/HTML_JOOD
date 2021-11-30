@@ -37,8 +37,6 @@ body, html {
   }
   /* CAROUSEL END */
 
-
-
   /* START APPLICATION-SCREENS */
   .app-screen {
     margin: 4rem auto;
@@ -62,7 +60,6 @@ body, html {
     width: 450px;
   }
   /* APPLICATION-SCREENS END */
-
 
   /* START APPLICATION-STATISTICS */
   .statistics {
@@ -97,15 +94,7 @@ body, html {
   /* APPLICATION-STATISTICS END */
   
 
-  
 
-
-  @media (max-width: 600px) {
-    .container {
-      max-width: 580px;
-    }
-  }
-  
   @media (min-width: 768px) {
     .container {
       width: 80%;
