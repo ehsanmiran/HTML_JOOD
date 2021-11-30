@@ -126,6 +126,8 @@ li {
     display: none;
     filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.2));
     padding-bottom: 1rem;
+    
+
 }
 .content {
     margin-top: 4rem;
@@ -226,6 +228,7 @@ li {
         transform: scale(2);
     }
 }
+
 
 /*---MEDIA QUERY---*/
 
