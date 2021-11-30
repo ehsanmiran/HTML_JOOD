@@ -25,11 +25,7 @@
     
 }
 
-.container-text{
-    /* width: 100%;
-    height: 100%; */
-   
-}
+
 .features-grid{
     padding-top: 2rem;
     display: grid;
@@ -45,6 +41,53 @@
 
         
 }
+.features-background {
+
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    right: 220px;
+    transform: rotate(-35deg);
+    top: 90px;
+    
+    /* bottom: 6px; */
+}
+.features-background img{
+    height: 250px;
+
+}
+
+.features-bild{
+     /* transform: rotate(-30deg); */
+     position: relative;
+     z-index: 1;
+}
+.features-circle1{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-color: transparent;
+    border: 20px solid #ffbb00;
+    position: absolute;
+    right: 190px;
+    top: 120px;
+
+}
+.features-circle2{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+   background-color: #1487fd;
+    position: absolute;
+    right: 350px;
+    top: 250px;
+
+
+}
+
+
+
 
 /* media Query */
  
@@ -61,6 +104,7 @@
        font-size: 12px;
        
    }
+   .features-background .features-circle1.features-circle
 }
     
 
@@ -79,6 +123,50 @@
             margin-right: 0rem;
             margin-bottom: 4rem;
             font-size: 14px;
+        }
+        .features-background {
+
+    
+            background-repeat: no-repeat;
+            background-position: center;
+            position: absolute;
+            right: 220px;
+            transform: rotate(-35deg);
+            top: 90px;
+            
+            /* bottom: 6px; */
+        }
+        .features-background img{
+            height: 250px;
+        
+        }
+        
+        .features-bild{
+             /* transform: rotate(-30deg); */
+             position: relative;
+             z-index: 1;
+        }
+        .features-circle1{
+            border-radius: 50%;
+            height: 100px;
+            width: 100px;
+            background-color: transparent;
+            border: 20px solid #ffbb00;
+            position: absolute;
+            right: 190px;
+            top: 120px;
+        
+        }
+        .features-circle2{
+            border-radius: 50%;
+            height: 50px;
+            width: 50px;
+           background-color: #1487fd;
+            position: absolute;
+            right: 350px;
+            top: 250px;
+        
+        
         }
     }
 @media (min-width:1024px) {
