@@ -182,7 +182,7 @@
 	}
 }
 
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1024px){
     .container {
         width: 60%;
         margin: auto;
