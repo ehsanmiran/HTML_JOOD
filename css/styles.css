@@ -10,10 +10,12 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+
 .container {
     width: 100%;
-    margin: auto;
+    margin: 0 auto;
 }
+
 
 /* HJÄLP KLASS */
 .background {
@@ -153,13 +155,13 @@ li {
 }
 .content {
     margin-top: 4rem;
-    margin-bottom: 10rem;
+    margin-bottom: 9rem;
     margin-left: 2rem;
     padding-bottom: 4rem;
 }
 .content h1 {
     color: #fff;
-    font-size: 35px;
+    font-size: 40px;
     font-weight: 700;
     text-align: start;
 }
@@ -256,7 +258,7 @@ li {
 .karusell-ec {
     position: relative;
     height: 25px;
-    margin: 3rem 0;
+    margin-bottom: 3rem;
 }
 
 .ec-logo {
@@ -368,91 +370,6 @@ li {
 }
 /* --- ABOUT US END --- */
 
-
-
-/* -----TA BORT DENNA KOD, finns i DOWNLOAD----- */
-
-/* .btn-download {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    margin: 2em 18em 0 0;
-}
-#apple-btn {
-    margin-left: auto;
-    background: white;
-    margin-left: 2em;
-    display: flex;
-    width: 14em;
-    height: 4em;
-    border-color: transparent;
-    border-radius: 10px;
-    align-items: center;
-    justify-content: center;
-}
-#apple-btn:hover {
-    cursor: pointer;
-    background-color: royalblue;
-    color: white;
-}
-#apple-btn i {
-    
-    font-size: 2rem;
-    margin-top: auto;
-    margin-bottom: auto;
-    animation-name: apple-button;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-}
-
-.apple-btn-text {
-      margin-left: auto;
-      margin-right: auto;
-      text-align: start;
-    }
-    #google-play-btn {
-        
-        background: white;
-        
-        display: flex;
-        width: 14em;
-        height: 4em;
-        border-color: transparent;
-        border-radius: 10px;
-        align-items: center;
-        
-        
-    }
-  #google-play-btn:hover {
-      cursor: pointer;
-      
-      cursor: pointer;
-      background-color: royalblue;
-      color: white;
-    }
-    
-    #google-play-btn i {
-        
-        font-size: 2rem;
-        margin-top: auto;
-        margin-bottom: auto;
-        animation-name: play-button;
-        animation-duration: 5s;
-        animation-iteration-count: infinite;
-    }
-  .play-btn-text {
-      margin-left: auto;
-      margin-right: auto;
-      text-align: start;
-    }
-    .bold {
-        margin-top: 5px;
-        font-weight: 800;
-        font-size: 14px;
-    } */
-    
-    /* --------------------- */
-    
     
     /* --- ANIMATION ec+about us, av Malin ---   */
     @keyframes slide {
@@ -658,22 +575,135 @@ li {
     font-weight: 500;
 }
 /* APPLICATION-STATISTICS END */
-
-
   
   /* Jonas Engström END */
+
+  /* download start */
+  .download-section .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: relative;
+  }
+  .download-section {
+    padding: 3em;
+    align-items: center;
+    max-width: 100%;
+    background: url(../Bilder/Bg.png);
+    color: white;
+    overflow: hidden;
+  }
+  
+  .download-section .headline {
+    text-align: center;
+    font-weight: 800;
+    font-size: 35px;
+   
+  }
+  .download-section .text-p {
+   color: #fff;
+   text-align: center;
+   margin-bottom: 3rem;
+  }
+  
+   #bild {
+    display: none;
+    justify-content: center;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 1.5rem;
+    right: 2rem;
+    
+  }
+  .btn-download {
+    display: flex;
+    justify-content: center;
+   
+  }
+  #apple-btn {
+    margin-left: auto;
+    background: white;
+    margin-left: 2em;
+    display: flex;
+    width: 14em;
+    height: 4em;
+    border-color: transparent;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  #apple-btn:hover {
+    cursor: pointer;
+    background-color: royalblue;
+    color: white;
+  }
+  #apple-btn i {
+    
+    font-size: 2rem;
+    margin-left: .5rem;
+    animation-name: apple-button;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+  }
+  
+  .apple-btn-text {
+      margin-left: auto;
+      margin-right: auto;
+      text-align: start;
+  }
+  #google-play-btn {
+   
+    background: white;
+    
+    display: flex;
+    width: 14em;
+    height: 4em;
+    border-color: transparent;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+   
+    
+  }
+  #google-play-btn:hover {
+      cursor: pointer;
+      background-color: royalblue;
+      color: white;
+    }
+  
+  #google-play-btn img {
+    font-size: 2rem;
+    margin-left: .5rem;
+    animation-name: play-button;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+  }
+  .play-btn-text {
+      margin-left: auto;
+      margin-right: auto;
+      text-align: start;
+  }
+  .bold {
+      margin-top: 5px;
+    font-weight: 800;
+    font-size: 14px;
+  }
+
+  /* download end */
   
 
   /*---MEDIA QUERY---*/
-  
+
+
   @media (min-width: 425px) {
-    .btn-watch {
-      display: inline-block;
-    }
-    .ec-logo {
-      animation-duration: 9s;
+  .btn-watch {
+    display: inline-block;
   }
-  
+  .ec-logo {
+    animation-duration: 9s;
+  }
      
   }
   
@@ -689,7 +719,7 @@ li {
   }
       
   .content h1 {
-      font-size: 48px;
+      font-size: 50px;
       font-weight: 700;
       margin-bottom: 1rem;
   }
@@ -715,7 +745,6 @@ li {
       justify-content: space-between;
   }
   
-  
     
     #malin-about-us .container {
         display: flex;
@@ -730,11 +759,7 @@ li {
     }
     
     /* Application */
-    .app-h2 {
-        font-size: 1.8rem;
-        font-weight: 800;
-        letter-spacing: .5px;
-    }
+    
     .p-bigger {
         display: block;
         margin: 1rem auto;
@@ -760,21 +785,38 @@ li {
         padding-top: 20px;
         padding-bottom: 70px;
     }
-    
-    
+
 }
 
 @media (min-width: 992px) {
     .background {
         background-size: 130%;
-        background-position: 50% 100%;}
+        background-position: 50% 100%;
+    }
+    .download-section .headline, .download-section .text-p {
+        text-align: left;
+        width: 60%;
+    }
+    .btn-download {
+        justify-content: flex-start;
+    }
+    #bild {
+        display: flex;
+        right: -7rem;
+    }
+
+    .download-section .headline {
+        font-size: 45px;
+    }
+   
+
+        
     }
     
     
-    @media (min-width: 1024px) 
-    {
-        .container {
-            max-width: 992px;
+    @media (min-width: 1024px) {
+    .container {
+        max-width: 992px;
         }
         .a-iphones {
             display: flex;
@@ -806,13 +848,17 @@ li {
         .ec-logo {
             position: static;
         }
-        .about-us-text .btn-download {
+        .about-us-text {
             justify-content: flex-start;
         }
-  .container-text {
-      width: 60%;
-  }
-  #features .container {
+        .karusell-ec {
+            margin-top: 3rem;
+        }
+
+       .container-text {
+            width: 60%;
+        }
+       #features .container {
       font-size: 18px;
   }
   /* application */
@@ -838,7 +884,8 @@ li {
  .statistics-numbers p {
  font-size: 1rem;
  }
-  
+ 
+
   }
   
   
@@ -851,3 +898,14 @@ li {
       background-position: 40% 95%;
   }
   }
+
+
+
+
+
+  
+
+
+
+
+
