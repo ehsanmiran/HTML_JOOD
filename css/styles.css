@@ -712,217 +712,8 @@ li {
   /* download end */
   
 
-  /*---MEDIA QUERY---*/
-
-
-  @media (min-width: 425px) {
-  .btn-watch {
-    display: inline-block;
-  }
-  .ec-logo {
-    animation-duration: 9s;
-  }
-     
-  }
-  
-  @media (min-width: 768px) {
-  .container {
-      width: 80%;
-  }
-  
-  #features .container {
-      font-size: 14px;
-    }
-    #features {
-        background-image: url('../img/Repeat\ Grid\ 1.svg');
-    }
-  .content h1 {
-      font-size: 50px;
-      font-weight: 700;
-      margin-bottom: 1rem;
-  }
-  .content p {
-      margin-top: .5rem;
-      color: #fff;
-      font-size: 15px;
-  } 
-  .background {
-      background-size: 140%;
-      background-position: 40% 120%;
-  }
-  .content {
-      margin-top: 4rem;
-      padding-bottom: 5rem;
-  }
-  .btn-navbar {
-      display: flex;
-  } 
-  /* About-us */
-  .karusell-ec {    
-      display: flex;
-      justify-content: space-between;
-  }
-  
-    
-    #malin-about-us .container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;        
-    }
-    
-    
-    /* Features */
-    
-    
-    /* Application */
-    
-    .p-bigger {
-        display: block;
-        margin: 1rem auto;
-        width: 450px;
-    }
-    .p-smaller {
-        display: none;
-    }
-    .app-screen {
-        margin-bottom: 1rem;
-    }
-    .statistics-numbers {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding-top: 2rem;    
-    }
-    .bg-image {
-        padding: 1.5rem;
-    }
-    .swiper {
-        max-width: 700px;
-        padding-top: 20px;
-        padding-bottom: 70px;
-    }
-
-}
-
-@media (min-width: 992px) {
-    .background {
-        background-size: 130%;
-        background-position: 50% 100%;
-    }
-    
-    .download-section .headline, .download-section .text-p {
-        text-align: left;
-        width: 60%;
-    }
-    .btn-download {
-        justify-content: flex-start;
-    }
-    #bild {
-        display: flex;
-        right: -7rem;
-    }
-
-    .download-section .headline {
-        font-size: 45px;
-    }
-   
-
-        
-    }
-    
-    
-    @media (min-width: 1024px) {
-    .container {
-        max-width: 992px;
-        }
-        .a-iphones {
-            display: flex;
-        }
-        .features {
-            display: flex;
-            
-        }
-        .navbar-toggler {
-            display: none;
-        }
-        .background {
-            background-size: 130%;
-            background-position: 40% 100%;
-        }
-        #m-mobil {
-            display: inline-block;
-        }
-        #ec4 {
-            display: inline-block;
-        }
-        .dot1 {   
-            display: inline-block; 
-        }
-        
-        .dot2 {   
-            display: inline-block; 
-        }
-        .ec-logo {
-            position: static;
-        }
-        .about-us-text {
-            justify-content: flex-start;
-        }
-        .karusell-ec {
-            margin-top: 3rem;
-        }
-
-       .container-text {
-            width: 60%;
-        }
-
-  .features-background {
-    display: inline-block;
-}
-  /* application */
- .app-h2 {
-    font-size: 2rem;
-    font-weight: 800;
-    letter-spacing: .5px;
- }
-  .iphone {
-   width: 250px;
- }
- .swiper {
- max-width: 992px;
- }
- .statistics-numbers {
- max-width: 800px;
- margin: auto;
- }
- .statistics-numbers h3 {
- font-size: 1.8rem;
- margin-bottom: .5rem;
- }
- .statistics-numbers p {
- font-size: 1rem;
- }
- 
-
-  }
-  
-  
-  @media (min-width: 1440px) {
-  .container {
-      max-width: 1140px;
-  }
-  .background {
-      background-size: 130% ;
-      background-position: 40% 95%;
-  }
-  }
-
-
-
-
-
-  /* ---------------- Contact Us Section starts here -------------------- */
-.contact-box {
+ /* ---------------- Contact Us Section starts here -------------------- */
+ .contact-box {
     margin: 4rem 1rem;
 }
 
@@ -1050,13 +841,99 @@ li {
 
 
 
-/* ----- Media quiery ------------ */
-@media screen and (min-width: 768px){
-    .container {
-        width: 80%;
-        margin: auto;
+
+  /*---MEDIA QUERY---*/
+
+
+  @media (min-width: 425px) {
+  .btn-watch {
+    display: inline-block;
+  }
+  .ec-logo {
+    animation-duration: 9s;
+  }
+     
+  }
+  
+  @media (min-width: 768px) {
+  .container {
+      width: 80%;
+      margin: auto;
+  }
+  
+  #features .container {
+      font-size: 14px;
     }
-	.ehsan-grd {
+    #features {
+        background-image: url('../img/Repeat\ Grid\ 1.svg');
+    }
+  .content h1 {
+      font-size: 50px;
+      font-weight: 700;
+      margin-bottom: 1rem;
+  }
+  .content p {
+      margin-top: .5rem;
+      color: #fff;
+      font-size: 15px;
+  } 
+  .background {
+      background-size: 140%;
+      background-position: 40% 120%;
+  }
+  .content {
+      margin-top: 4rem;
+      padding-bottom: 5rem;
+  }
+  .btn-navbar {
+      display: flex;
+  } 
+  /* About-us */
+  .karusell-ec {    
+      display: flex;
+      justify-content: space-between;
+  }
+  
+    
+    #malin-about-us .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;        
+    }
+    
+    
+    /* Features */
+    
+    
+    /* Application */
+    
+    .p-bigger {
+        display: block;
+        margin: 1rem auto;
+        width: 450px;
+    }
+    .p-smaller {
+        display: none;
+    }
+    .app-screen {
+        margin-bottom: 1rem;
+    }
+    .statistics-numbers {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 2rem;    
+    }
+    .bg-image {
+        padding: 1.5rem;
+    }
+    .swiper {
+        max-width: 700px;
+        padding-top: 20px;
+        padding-bottom: 70px;
+    }
+
+    .ehsan-grd {
 		display: grid;
 	}
 	#two-rows-lists {
@@ -1070,14 +947,32 @@ li {
 		height: 50px;
 		padding: 8px;
 	}
+
 }
 
-@media screen and (min-width: 992px){
-    .container {
-        width: 60%;
-        margin: auto;
+@media (min-width: 992px) {
+    .background {
+        background-size: 130%;
+        background-position: 50% 100%;
     }
-	.ehsan-grd {
+    
+    .download-section .headline, .download-section .text-p {
+        text-align: left;
+        width: 60%;
+    }
+    .btn-download {
+        justify-content: flex-start;
+    }
+    #bild {
+        display: flex;
+        right: -7rem;
+    }
+
+    .download-section .headline {
+        font-size: 45px;
+    }
+   
+    .ehsan-grd {
 		display: grid;
 	}
 	#two-rows-lists {
@@ -1088,34 +983,181 @@ li {
 		height: 50px;
 		padding: 8px;
 	}
+}    
+    
+    @media (min-width: 1024px) {
+    .container {
+        max-width: 992px;
+        }
+        .a-iphones {
+            display: flex;
+        }
+        .features {
+            display: flex;
+            
+        }
+        .navbar-toggler {
+            display: none;
+        }
+        .background {
+            background-size: 130%;
+            background-position: 40% 100%;
+        }
+        #m-mobil {
+            display: inline-block;
+        }
+        #ec4 {
+            display: inline-block;
+        }
+        .dot1 {   
+            display: inline-block; 
+        }
+        
+        .dot2 {   
+            display: inline-block; 
+        }
+        .ec-logo {
+            position: static;
+        }
+        .about-us-text {
+            justify-content: flex-start;
+        }
+        .karusell-ec {
+            margin-top: 3rem;
+        }
+
+       .container-text {
+            width: 60%;
+        }
+
+  .features-background {
+    display: inline-block;
+}
+  /* application */
+ .app-h2 {
+    font-size: 2rem;
+    font-weight: 800;
+    letter-spacing: .5px;
+ }
+  .iphone {
+   width: 250px;
+ }
+ .swiper {
+ max-width: 992px;
+ }
+ .statistics-numbers {
+ max-width: 800px;
+ margin: auto;
+ }
+ .statistics-numbers h3 {
+ font-size: 1.8rem;
+ margin-bottom: .5rem;
+ }
+ .statistics-numbers p {
+ font-size: 1rem;
+ }
+ 
+ .ehsan-grd {
+    display: grid;
+}
+#two-rows-lists {
+    display: flex;
+    justify-content: center;
+}
+.fnt {
+    padding: 2rem;
+}
+.S-media img {
+    height: 50px;
+    padding: 8px;
 }
 
-@media screen and (min-width: 1024px){
-    .container {
-        width: 60%;
-        margin: auto;
-    }
-	.ehsan-grd {
-		display: grid;
-	}
-	#two-rows-lists {
-		display: flex;
-		justify-content: center;
-	}
-    .fnt {
-        padding: 2rem;
-    }
-	.S-media img {
-		height: 50px;
-		padding: 8px;
-	}
 }
+  
+  
+  @media (min-width: 1440px) {
+  .container {
+      max-width: 1140px;
+  }
+  .background {
+      background-size: 130% ;
+      background-position: 40% 95%;
+  }
+  .ehsan-grd {
+    display: grid;
+}
+#two-rows-lists {
+    display: flex;
+    justify-content: center;
+}
+.fnt {
+    padding: 2rem;
+}
+    .S-media img {
+    height: 50px;
+    padding: 8px;
+}
+  }
+
+
+
+
+
+ 
+
+/* ----- Media quiery ------------ */
+/* @media screen and (min-width: 768px){ */
+	/* .ehsan-grd { */
+		/* display: grid; */
+	/* } */
+	/* #two-rows-lists { */
+		/* display: flex; */
+		/* justify-content: center; */
+	/* } */
+    /* .fnt { */
+        /* padding: 2rem; */
+    /* } */
+	/* .S-media img { */
+		/* height: 50px; */
+		/* padding: 8px; */
+	/* } */
+/* } */
+
+/* @media screen and (min-width: 992px){ */
+	/* .ehsan-grd { */
+		/* display: grid; */
+	/* } */
+	/* #two-rows-lists { */
+   	/* display: flex; */
+		/* justify-content: center; */
+	/* } */
+	/* .S-media img { */
+		/* height: 50px; */
+		/* padding: 8px; */
+	/* } */
+/* } */
+
+/* .ehsan-grd { */
+		/* display: grid; */
+	/* } */
+	/* #two-rows-lists { */
+		/* display: flex; */
+		/* justify-content: center; */
+	/* } */
+    /* .fnt { */
+        /* padding: 2rem; */
+    /* } */
+	/* .S-media img { */
+		/* height: 50px; */
+		/* padding: 8px; */
+	/* } */
+/* } */
 
 @media screen and (min-width: 1440px){
-    .container {
-        width: 60%;
-        margin: auto;
-    }
+    /* .container { */
+        /* width: 60%; */
+        /* margin: auto; */
+    /* } */
 	.ehsan-grd {
 		display: grid;
 	}
