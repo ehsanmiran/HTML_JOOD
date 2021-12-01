@@ -458,6 +458,7 @@ li {
    z-index: 6;
    top: -10rem;
    right: -4rem;
+   animation: infinite;
 }
 .features-iphone2 img{
     height: 350px;
@@ -473,11 +474,14 @@ li {
     height: 150px;
     width: 150px;
     background-color: transparent;
-    border: 35px solid #ffbb00;
+    border-left: 35px solid #ffbb00;
+    border-top: 35px solid #ffbb00;
+    border-bottom: 35px solid #1488fdcc;
+    border-right: 35px solid #1488fdcc;
     position: absolute;
     right: -8rem;
     top: -3rem;
-    /* animation: spinner 2s linear infinite; */
+    animation: spinner 3s linear infinite;
     
 }
 .features-circle2{
