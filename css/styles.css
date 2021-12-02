@@ -19,15 +19,7 @@ body {
 }
 
 
-/* HJÄLP KLASS */
-.background {
-    background-image: url("../img/Component\ 1\ –\ 1.svg");
-    background-repeat: no-repeat;
-    background-size: 40;
-    background-position: 30% 100%;
-    background-attachment: sticky;
-    overflow: hidden;
-}
+/*--- HJÄLP KLASS ---*/
 .btn-a {
     border: transparent;
     border-radius: 9px;
@@ -58,7 +50,17 @@ body {
     line-height: 1.3rem;
 }
 
-/* --TOPNAV START--- */
+
+
+/*---TOPNAV START / av Anna---*/
+.background {
+    background-image: url("../img/Component\ 1\ –\ 1.svg");
+    background-repeat: no-repeat;
+    background-size: 40;
+    background-position: 30% 100%;
+    background-attachment: sticky;
+    overflow: hidden;
+}
 .navbar .container {
     display: flex;
     justify-content: space-between;
@@ -138,7 +140,7 @@ li {
     color: #FFBB00;
 }
 
-/*--- HEADER START ---*/
+/*--- HEADER START / Av Anna ---*/
 .showcase {
     display: flex;
     width: 100%;
@@ -244,16 +246,16 @@ li {
     outline: 1px solid #FFBB00;
 }
 
-/*--- HEADER END ---*/
 
 @keyframes pulse {
     0%{
-       transform: scale(1);
+        transform: scale(1);
     }
     100%{
         transform: scale(2);
     }
 }
+/*--- HEADER END ---*/
 
 
 /*--- EC-LOGO START, av Malin ---*/
@@ -330,7 +332,6 @@ li {
     border-radius: 50%;
     background-color: white;
     border: 2px solid #E8E8E8;
-    
     animation: dots1 4s ease-out infinite both;
 }
 
@@ -351,7 +352,6 @@ li {
 
 .about-us-text {
     padding: 0 2rem;
-    /* margin-left: 2rem; */
 }
 
 .about-us-text h2 {
@@ -373,34 +373,29 @@ li {
 /* --- ABOUT US END --- */
 
     
-    /* --- ANIMATION ec+about us, av Malin ---   */
-    @keyframes slide {
-        from { right: -50%; }
+/* --- ANIMATION ec+about us, av Malin ---   */
+@keyframes slide {
+    from { right: -50%; }
 
-        to { right: 100%; }
-    }
+    to { right: 100%; }
+}
     
-    @keyframes dots1 {
-        from { 
-            transform: scale(0);
-            opacity: 1;
-        }
-        
-        to {
-            transform: scale(1);
-            opacity: 0;
-        }
+@keyframes dots1 {
+    from { 
+        transform: scale(0);
+        opacity: 1;
+    }   
+    to {
+        transform: scale(1);
+        opacity: 0;
+    }
     }
  
-
     
-    /* --FEATURES-- */
-
-
+/* --FEATURES START / Av Anas-- */
     
 #features {
     background-color: #F5F5F5;
-    /* background-image: url('../img/Repeat\ Grid\ 1.svg'); */
     background-repeat: no-repeat;
     background-image: none;
     padding-block: 3rem;
@@ -428,7 +423,6 @@ li {
     grid-area: features-grid;
     grid-template-columns: repeat(2,1fr);
     gap: 1.5rem;
-    /* position: absolute; */
 }
 
 .features-card1{
@@ -449,7 +443,6 @@ li {
 
 .features-iphone2{
     position: absolute;
-    /* right: 220px; */
     transform: rotate(-35deg);
     top: -7.5rem;
     right: 3.3rem;
@@ -467,9 +460,9 @@ li {
 }
 
 .features-background{
-     position: relative;
-     display: none;
-    }
+    position: relative;
+    display: none;
+}
 
 .features-circle1{
     border-radius: 50%;
@@ -490,12 +483,12 @@ li {
     border-radius: 50%;
     height: 65px;
     width: 65px;
-    background-color: #1488fdcc;
+    background-color: #1488fd;
     position: absolute;
     right: 350px;
     top: 5rem;
     right: 10rem;
-    /* animation: spinner 2s linear infinite; */
+    /* animation: dots1 2s linear infinite; */
 }
 .container-text {
     font-size: 12px;
@@ -515,11 +508,12 @@ li {
 
 
 
-/* START Jonas Engström */  
+/*-- APPLICATION START / Av Jonas Engström-- */  
+
 .text-align-center {
     text-align: center;
 } 
-/* START CAROUSEL */
+/*-- START CAROUSEL-- */
 .iphone {
     width: 225px;
   }
@@ -541,9 +535,9 @@ li {
     margin-left: 2rem;
 }
 
-  /* CAROUSEL END */
+/*-- CAROUSEL END --*/
 
-  /* START APPLICATION-SCREENS */
+/*-- START APPLICATION-SCREENS --*/
 .app-screen {
     margin: 4rem auto;
 }
@@ -560,21 +554,21 @@ li {
   .p-smaller {
       width: 450px;
     }
-  /* APPLICATION-SCREENS END */
+  /*-- APPLICATION-SCREENS END --*/
   
-  /* START APPLICATION-STATISTICS */
+  /*-- START APPLICATION-STATISTICS --*/
   .statistics {
     margin-bottom: 5rem;
   }
   .bg-image {
-      background-image: url("../img/Layer\ 815.svg");
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: contain;
-      width: 100%;
+    background-image: url("../img/Layer\ 815.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 100%;
     }
   .statistics-numbers {
-      display: grid;
+    display: grid;
     grid-template-columns: repeat(2, 150px);
     justify-content: center;
     padding-top: 1.5rem;
@@ -587,44 +581,43 @@ li {
     color: #3096FE;
     margin-bottom: .2rem;
 }
-  .statistics-numbers p {
-      font-size: .9rem;
+.statistics-numbers p {
+    font-size: .9rem;
     letter-spacing: .5px;
     font-weight: 500;
 }
-/* APPLICATION-STATISTICS END */
-  
-  /* Jonas Engström END */
+/*-- APPLICATION-STATISTICS END--*/
+ 
 
-  /* download start */
-  .download-section .container {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      position: relative;
-  }
-  .download-section {
+  /* DOWLOAD START / Av Jonas Schwartz */
+.download-section .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.download-section {
     padding: 3em;
     align-items: center;
     max-width: 100%;
     background: url(../Bilder/Bg.png);
     color: white;
     overflow: hidden;
-  }
+}
   
-  .download-section .headline {
+.download-section .headline {
     text-align: center;
     font-weight: 800;
     font-size: 35px;
    
-  }
-  .download-section .text-p {
+}
+.download-section .text-p {
    color: #fff;
    text-align: center;
    margin-bottom: 3rem;
-  }
+}
   
-   #bild {
+#bild {
     display: none;
     justify-content: center;
     height: 400px;
@@ -632,15 +625,14 @@ li {
     margin-right: auto;
     position: absolute;
     top: 1.5rem;
-    right: 2rem;
-    
-  }
-  .btn-download {
+    right: 2rem; 
+}
+.btn-download {
     display: flex;
     justify-content: center;
    
-  }
-  #apple-btn {
+}
+#apple-btn {
     margin-left: auto;
     background: white;
     margin-left: 2em;
@@ -651,68 +643,59 @@ li {
     border-radius: 10px;
     align-items: center;
     justify-content: center;
-  }
-  #apple-btn:hover {
+}
+#apple-btn:hover {
     cursor: pointer;
     background-color: royalblue;
     color: white;
-  }
-  #apple-btn i {
-    
+}
+#apple-btn i {
     font-size: 2rem;
     margin-left: .5rem;
     animation-name: apple-button;
     animation-duration: 5s;
     animation-iteration-count: infinite;
-  }
-  
-  .apple-btn-text {
-      margin-left: auto;
-      margin-right: auto;
-      text-align: start;
-  }
-  #google-play-btn {
-   
+}
+.apple-btn-text {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: start;
+}
+#google-play-btn {
     background: white;
-    
     display: flex;
     width: 14em;
     height: 4em;
     border-color: transparent;
     border-radius: 10px;
     align-items: center;
-    justify-content: center;
-   
-    
-  }
-  #google-play-btn:hover {
-      cursor: pointer;
-      background-color: royalblue;
-      color: white;
-    }
+    justify-content: center; 
+}
+#google-play-btn:hover {
+    cursor: pointer;
+    background-color: royalblue;
+    color: white;
+}
   
-  #google-play-btn img {
+#google-play-btn img {
     font-size: 2rem;
     margin-left: .5rem;
     animation-name: play-button;
     animation-duration: 5s;
     animation-iteration-count: infinite;
-  }
-  .play-btn-text {
-      margin-left: auto;
-      margin-right: auto;
-      text-align: start;
-  }
-  .bold {
-      margin-top: 5px;
+}
+.play-btn-text {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: start;
+}
+.bold {
+    margin-top: 5px;
     font-weight: 800;
     font-size: 14px;
-  }
+}
 
-  /* download end */
-  
-
- /* ---------------- Contact Us Section starts here -------------------- */
+ /* --- CONTACT START / Av Ehsan ---- */
  .contact-box {
     margin: 4rem 1rem;
 }
@@ -741,7 +724,6 @@ li {
 }
 
 .ehsan-grd {
-    /* display: grid; */
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
 }
@@ -774,7 +756,7 @@ li {
     background-color: transparent;
     cursor: pointer;
     border-radius: 10px;
-  }
+}
 .ehsan-btn-primary {
     background-color: #3096fe;
     font-family: 'Roboto', sans-serif;
@@ -792,8 +774,7 @@ li {
     color: #ffbb00;
 }
 
-
-/* ---------------- Footer Section starts here -------------------- */
+/* --- Footer Section starts here ---- */
 #footer {
     background-color: #1487fd;
     background-image: linear-gradient(#1487fd, #42a0ff);
@@ -815,7 +796,6 @@ li {
     justify-content: center;
 }
 .fnt {
-    font-family: 'Roboto', sans-serif;
     font-size: 1.2rem;
     font-weight: 500;
     color: #fff;
@@ -841,70 +821,64 @@ li {
 
 
 
-
-  /*---MEDIA QUERY---*/
+  /*-------- MEDIA QUERY----------*/
 
 
   @media (min-width: 425px) {
+  /*--- HEADER ---*/
   .btn-watch {
     display: inline-block;
   }
+  /*--- ABOUT-US ---*/
   .ec-logo {
     animation-duration: 9s;
-  }
-     
+  } 
   }
   
   @media (min-width: 768px) {
   .container {
-      width: 80%;
-      margin: auto;
+    width: 80%;
+    margin: auto;
   }
-  
-  #features .container {
-      font-size: 14px;
-    }
-    #features {
-        background-image: url('../img/Repeat\ Grid\ 1.svg');
-    }
+ /* --- HEADER ---*/
   .content h1 {
       font-size: 50px;
       font-weight: 700;
       margin-bottom: 1rem;
-  }
-  .content p {
-      margin-top: .5rem;
-      color: #fff;
-      font-size: 15px;
-  } 
-  .background {
-      background-size: 140%;
-      background-position: 40% 120%;
-  }
-  .content {
-      margin-top: 4rem;
-      padding-bottom: 5rem;
-  }
-  .btn-navbar {
-      display: flex;
-  } 
-  /* About-us */
-  .karusell-ec {    
-      display: flex;
-      justify-content: space-between;
-  }
-  
-    
+    }
+    .content p {
+        margin-top: .5rem;
+        color: #fff;
+        font-size: 15px;
+    } 
+    .background {
+        background-size: 140%;
+        background-position: 40% 120%;
+    }
+    .content {
+        margin-top: 4rem;
+        padding-bottom: 5rem;
+    }
+    .btn-navbar {
+        display: flex;
+    } 
+    /*-- ABOUT US--- */
+    .karusell-ec {    
+        display: flex;
+        justify-content: space-between;
+    }
     #malin-about-us .container {
         display: flex;
         justify-content: space-between;
         align-items: center;        
     }
-    
+  
+    /*--- FEATURES ---*/
+    #features {
+        background-image: url('../img/Repeat\ Grid\ 1.svg');
+    }
       
-    
-    /* Application */
-    
+    /*--- APPLICATIONS ---*/
     .p-bigger {
         display: block;
         margin: 1rem auto;
@@ -930,7 +904,7 @@ li {
         padding-top: 20px;
         padding-bottom: 70px;
     }
-
+    /*--- CONTACT ---*/
     .ehsan-grd {
 		display: grid;
 	}
@@ -945,15 +919,15 @@ li {
 		height: 50px;
 		padding: 8px;
 	}
-
 }
 
 @media (min-width: 992px) {
+    /*--- HEADER ---*/
     .background {
         background-size: 130%;
         background-position: 50% 100%;
     }
-    
+    /* --- DOWNLOAD ---*/
     .download-section .headline, .download-section .text-p {
         text-align: left;
         width: 60%;
@@ -965,16 +939,15 @@ li {
         display: flex;
         right: -7rem;
     }
-
     .download-section .headline {
         font-size: 45px;
     }
-   
+    /* --- CONTACT --- */
     .ehsan-grd {
 		display: grid;
 	}
 	#two-rows-lists {
-   	display: flex;
+   	    display: flex;
 		justify-content: center;
 	}
 	.S-media img {
@@ -987,6 +960,7 @@ li {
     .container {
         max-width: 992px;
     }
+    /* --- HEADER ---*/
     .a-iphones {
         display: flex;
     }
@@ -1000,6 +974,7 @@ li {
         background-size: 130%;
         background-position: 40% 100%;
     }
+    /*--- ABOUT-US ---*/
     #m-mobil {
         display: inline-block;
     }
@@ -1027,7 +1002,8 @@ li {
     .features-background {
         display: inline-block;
     }
-  /* application */
+
+    /*--- APPLICATIONS ---*/
     .app-h2 {
         font-size: 2rem;
         font-weight: 800;
@@ -1050,7 +1026,7 @@ li {
     .statistics-numbers p {
         font-size: 1rem;
     }
- 
+    /*--- CONTACT ---*/
     .ehsan-grd {
         display: grid;
     }   
@@ -1072,10 +1048,12 @@ li {
     .container {
       max-width: 1140px;
     }
+    /*--- HEADER ---*/
     .background {
       background-size: 130% ;
       background-position: 40% 95%;
     }
+    /*--- CONTACT ---*/
     .ehsan-grd {
         display: grid;
     }
